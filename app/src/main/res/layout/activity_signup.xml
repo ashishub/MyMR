@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="50dp"
+    tools:context=".Signup">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create a new user:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#161616"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:labelFor="@id/txtFullName"
+        app:startIconContentDescription="Enter Full Name:"
+        android:textColorHint="@color/colorHint"
+        app:hintTextColor="@color/colorHint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Full Name:"
+            android:inputType="textPersonName|text"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorHint"
+        app:hintTextColor="@color/colorHint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email:"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorHint"
+        app:endIconMode="password_toggle"
+
+        app:hintTextColor="@color/colorHint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password:"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:maxLength="8"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:focusable="true"
+        app:passwordToggleEnabled="true"
+
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorHint"
+        app:hintTextColor="@color/colorHint">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCnfrmPswd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Confirm Password:"
+            android:inputType="textPassword"
+            android:textSize="18sp"
+            android:maxLength="8"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="60dp"
+        android:background="@drawable/rounded_button"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/tvGoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:paddingTop="10dp"
+        android:text="Already have an account? Sign in here" />
+
+
+</LinearLayout>

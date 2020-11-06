@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My MR</string>
+    <string name="registrationFailure">Registration failed! Contact Administrator.</string>
+    <string name="LoginFailure">Login failed! Check details.</string>
+    <string name="correctAllErrors">Please correct all the errors</string>
+    <string name="emailIsInvalid">Email id is Invalid!</string>
+    <string name="passwordInvalid">Password is Invalid!</string>
+    <string name="passwordMismatch">Password doesn\'t match!</string>
+    <string name="madrasrefractoryLogo">Madras Refractory Logo</string>
+    <string name="logout">Logout</string>
+    <string name="create_invoice">Create Invoice</string>
+    <string name="TAMIL_NADU_STATE_GST_CD">33</string>
+    <string name="INVOICE_DATA">invoiceData</string>
+    <string name="USER_DTL">userDetails</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="back_to_home">Back to Home</string>
+    <string name="erros_on_page">Please correct all the error on the page.</string>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "241466848056",
+    "firebase_url": "https://my-mr-865d6.firebaseio.com",
+    "project_id": "my-mr-865d6",
+    "storage_bucket": "my-mr-865d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241466848056:android:4e6c59c157ac990fe8c7cd",
+        "android_client_info": {
+          "package_name": "com.mr.mymr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241466848056-hkrldf5554t21m6sv2c3eikefqqkm6n6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJTIjN_rcqC7qIi0kOZUzY2bAAiA_3MQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241466848056-hkrldf5554t21m6sv2c3eikefqqkm6n6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

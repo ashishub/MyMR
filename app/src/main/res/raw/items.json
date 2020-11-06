@@ -1,0 +1,2020 @@
+{
+  "items": [
+    {
+      "itemDesc": "Bed Material 0.2 mm to 0.4 mm",
+      "uom": "Kgs",
+      "hsnCode": "25083030",
+      "gstPerctage": "5"
+    },
+    {
+      "itemDesc": "Fire Clay [40 Kg Bag]",
+      "uom": "Kgs",
+      "hsnCode": "25083030",
+      "gstPerctage": "5"
+    },
+    {
+      "itemDesc": "Fire Clay Mortar [Fines]",
+      "uom": "Kgs",
+      "hsnCode": "25083030",
+      "gstPerctage": "5"
+    },
+    {
+      "itemDesc": "Hi Chrome Magnesite Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "40 % AL Mortar MRW",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "40 AL Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "50 Al Mortar  DALSET 50-30-ASM",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "70 AL Mortar - DALSET 70-30-ASM",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "90 K Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AIR SET MORTAR",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "BINDER ADDITIVES",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Chrome Mag Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Chrome Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALRAM SH 70-30 With Binder",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALRAM SH 70-30 Without Binder",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALRAM SH 80-20",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 35-30 - DRL",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 35-30 [40 Kg Bag]",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 35-30 [50 Kg Bag]",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 35-30 Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 35-30-ASM",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 40-30 Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 40-30-ASM",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 40-35-ASM - IS 8 Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 50-30",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 50-30 ACCOSET 50",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 50-30 ASM",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 50-30 Mortar [40 Kg Bag]",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 50-30-ASM (ACCOSET 50)",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 50-30-ASM [50 Mortar]",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 50-30-ASM Fine Mortar",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 60-30 MORTAR",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 70-30 ASM",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 70-30 MORTAR",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 70-30 MORTAR - DALMIA",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALSET 70-30-ASM [70 Mortar]",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA Mortar 70-30-ASM",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "High Alumina Binder",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 Mortor (MRW)",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS Binder",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "THERMOTEX",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "THERMOTEX - [SHETTY]",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Thermotex (40 Kg) Bucket",
+      "uom": "Kgs",
+      "hsnCode": "38160000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Polythene Cover - Rolls 36\"",
+      "uom": "Rolls",
+      "hsnCode": "39232100",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "LRB MATTRESS 50mm 100 BD",
+      "uom": "Sqm",
+      "hsnCode": "68061000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Rockwool RB Slab - 48/50",
+      "uom": "Sqm",
+      "hsnCode": "68061000",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Mill Board 3 IS 6 - FIREFLEX",
+      "uom": "Kgs",
+      "hsnCode": "68129211",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Mill Board 5 IS 6 - FIREFLEX",
+      "uom": "Kgs",
+      "hsnCode": "68129211",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Mill Board 10 IS 6 - FIREFLEX",
+      "uom": "Kgs",
+      "hsnCode": "68129211",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Mill Board 12 IS 6 - FIREFLEX",
+      "uom": "Kgs",
+      "hsnCode": "68129211",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H800 - [600X150X25 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H800 - [600X150X40 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H800 - [600X150X50 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H800 - [600X150X75 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H1000 - [600X150X25 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H1000 - [600X150X40 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H1000 - [600X150X50 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Calcium Silicate Block H1000 - [600X150X75 mm]",
+      "uom": "Nos",
+      "hsnCode": "69010090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Chrome Mag Bricks [DALMIA-OCL] CHM TY-1",
+      "uom": "Nos",
+      "hsnCode": "69021020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Chrome Mag bricks MCL-CMNR",
+      "uom": "Nos",
+      "hsnCode": "69021020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Porous Plug - GP II",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "2QC Porous Plug - GP III",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "4A Burner Block 355x355x355",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "50 AL BRICKS - 3/2.5 - EA",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "50 AL EA - 12 X 6 X 3 / 2 3/4",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "50 AL SA 75/50 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "50 AL SA 75/70",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "50 AL STD Brick",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "60 AL STD Brick",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "70 AL STD Brick",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "70 AL 2\" Tile",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "70 AL Bottom Brick 230 x 200 x 100",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "70 AL Brick SA 75/65",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70 Slab - 24 X 12 X 3",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70 Slab - 18 X 12 X 6",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70 Slab - 18 X 12 X 3",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70 Slab - 24 X 12 X 6",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70 Slab - 12 X 12 X 3",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-1 [LF 50-25]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-2 [LF 50-25]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-3 [LF 50-25]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-4 [LF 50-25]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-5 [LF 50-25]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-1 [HA 60-30]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-2 [HA 60-30]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-1 [HA 50-30]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-2 [HA 50-30]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-1 [LF 60-20]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AFRB-2 [LF 60-20]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "AL 50 SA [3/2] - MRW",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Brick fire Ladle Wall-900 R",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Brick fire Ladle wall-600 R",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Brick fire Ladle wall-750 R",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Burner Block - 9\" X 9\" X 9\" AL 70",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Burner Mouth Block",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Coller Bush",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "End Skew Block",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Fire Brick Blocks - 18\" x 12\" x 3\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Ladle Well Block",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "2QC Ladle Well Block",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "2QC PP Well Block GP-III",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC PP Well Block GP-II",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "GT Block 70% AL[24X12X6]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 STD Brick [230 x 115 x 75]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 STD Brick [9 X 4.5 x 3]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA 75/38 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA 75/60 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA [9 X 4.5 X 3 / 2 1/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA [9 X 4.5 X 3 / 2 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA [9 X 4.5 X 3 / 2 3/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA [9 X 4.5 X 3 / 2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 SA [9 X 4.5 X 3 / 1 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA 75/38 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA 75/60 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA [9 X 4.5 X 3 / 2 1/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA [9 X 4.5 X 3 / 2 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA [9 X 4.5 X 3 / 2 3/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA [9 X 4.5 X 3 / 2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 EA [9 X 4.5 X 3 / 1 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 Tile [25mm][1\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 Tile [50mm][2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 Tile [40mm][1 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 Tile [62mm][2 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30 Tile [65mm][2 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30-PN Burner Block -12\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30-PN Burner Block -14\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 50-30-PN Burner Block -16\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 STD Brick [230 x 115 x 75]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 STD Brick [9 X 4.5 x 3]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA 75/38 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA 75/60 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA [9 X 4.5 X 3 / 2 1/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA [9 X 4.5 X 3 / 2 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA [9 X 4.5 X 3 / 2 3/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA [9 X 4.5 X 3 / 2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 SA [9 X 4.5 X 3 / 1 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA 75/38 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA 75/60 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA [9 X 4.5 X 3 / 2 1/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA [9 X 4.5 X 3 / 2 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA [9 X 4.5 X 3 / 2 3/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA [9 X 4.5 X 3 / 2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 EA [9 X 4.5 X 3 / 1 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 Tile [25mm][1\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 Tile [50mm][2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 Tile [40mm][1 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 Tile [62mm][2 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30 Tile [65mm][2 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30-PN Burner Block -12\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30-PN Burner Block -14\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 60-30-PN Burner Block -16\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 STD Brick [230 x 115 x 75]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 STD Brick [9 X 4.5 x 3]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA 75/38 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA 75/60 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA [9 X 4.5 X 3 / 2 1/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA [9 X 4.5 X 3 / 2 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA [9 X 4.5 X 3 / 2 3/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA [9 X 4.5 X 3 / 2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 SA [9 X 4.5 X 3 / 1 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA 75/38 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA 75/60 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA [9 X 4.5 X 3 / 2 1/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA [9 X 4.5 X 3 / 2 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA [9 X 4.5 X 3 / 2 3/4]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA [9 X 4.5 X 3 / 2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 EA [9 X 4.5 X 3 / 1 1/2]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 Tile [25mm][1\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 Tile [50mm][2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 Tile [40mm][1 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 Tile [62mm][2 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 Tile [65mm][2 1/2\"]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30-PN Burner Block -12\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30-PN Burner Block -14\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30-PN Burner Block -16\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30-PN Burner Block -18\"",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA 70-30 STD AP-18 Brick",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA SLAB [18x12x6]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA SLAB [24x12x3]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HA SLAB [24x12x6]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 230 X 115 X 25 mm",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ladle Brick HA 70-30 230x150x75",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "LC 90 Slab DALMIA [600X300X115]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "LF 50-25 STD [230 x 115 x 75]",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "LF 70-20 STD",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Refractory Charge Pier - Block",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SEAT BLOCK SB 2  1QC",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Side Abutment Block",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Single Groove Brick",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Tundish Nozzle 12 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022020",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Slide Gate Plate - 25mm",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Slide Gate Plate - 30mm",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "2QC Slide Gate Plate",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "2QC Collector Nozzle - 35 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Collector Nozzle - 25 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Collector Nozzle - 30 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "2QC Ladle Nozzle - 35 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Ladle Nozzle - 25 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "1QC Ladle Nozzle - 30 IS 6",
+      "uom": "Nos",
+      "hsnCode": "69022030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Silicon Carbide Tiles",
+      "uom": "Nos",
+      "hsnCode": "69022040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 Std Brick [230 X 115 x 75]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 Std Brick [230 X 115 x 75]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 SA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 SA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 SA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 EA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 EA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 EA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 Tile - [230 X 115 X 25 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 Tile - [230 X 115 X 40 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 Tile - [230 X 115 X 50 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 6 Tile - [230 X 115 X 65 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 Tile - [230 X 115 X 25 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 Tile - [230 X 115 X 40 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 Tile - [230 X 115 X 50 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 Tile - [230 X 115 X 65 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 SA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 SA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 SA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 EA 75/50 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 EA 75/65 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "IS 8 EA 75/70 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Slab - HD - 24 X 12 X 3",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Slab - HD - 18 X 12 X 6",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Slab - HD - 18 X 12 X 3",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Slab - HD - 24 X 12 X 6",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Slab - HD - 18 X 4.5 X 3",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Slab - HD - 12 X 12 X 3",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "END SKEW BLOCK - HD",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SIDE SKEW BLOCK - HD",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Bogie Edge Brick",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "BROKEN REF GROG",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Burner Block - 12\" X 12\" X 12\" - HD",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Burner Block - 14\" X 14\" X 14\" - HD",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Burner Block - 9\" X 9\" X 9\" - HD",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Cupola Brick 8\"x6\"x4\"x4\"",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Fixed Hearth Edge Brick",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HG 40-25 STD [230 X 115 X 25]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HG 40-30 EA 75/50 - DALMIA",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HG 40-30 EA 75/65 - DALMIA",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HG 40-30 EA 75/70 - DALMIA",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HH 40-35 Tile [25 mm]",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HH 40-35 STD Brick Dalmia",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HH 40-30 Tiles 25 mm",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HH 40-35 EA 75/50 - DALMIA",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HH 40-35 EA 75/65 - DALMIA",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HH 40-35 EA 75/70 - DALMIA",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Special Slab as per Drg",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Tundish Well block",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "GT Block [24 x 12 x 6] - HD",
+      "uom": "Nos",
+      "hsnCode": "69029010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "CFI Insulation Brick",
+      "uom": "Nos",
+      "hsnCode": "69029090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HFI Insulation Brick",
+      "uom": "Nos",
+      "hsnCode": "69029090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "HFK Insulation Brick",
+      "uom": "Nos",
+      "hsnCode": "69029090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "CFI Insulation Brick SA 75/65",
+      "uom": "Nos",
+      "hsnCode": "69029090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "6 GROOVE 30 DIA ESB [CLOSE TYPE]",
+      "uom": "Nos",
+      "hsnCode": "69032090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "6 GROOVE 30 DIA ESB [OPEN TYPE]",
+      "uom": "Nos",
+      "hsnCode": "69032090",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Bulk Ceramic Fiber [RT-1260] - 20Kgs",
+      "uom": "Kgs",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Board-1000x500x25/1260",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Board-1000x500x50/1260",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket - 25/128/1260",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket - 25/64/1260",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket - 25/96/1260",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket - 25/128/1425",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket - 25/96/1425",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket - 50/128/1260",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket - 50/96/1260",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Blanket  96/1260[7.62mX.0.61mX25 mm]",
+      "uom": "Rolls",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Cloth - 3 IS 6 Thk 1m W",
+      "uom": "Mtr",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Paper 3 mm",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Paper 5 mm",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Paper 6 mm",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Paper 10 mm",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Paper 12 mm",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Ceramic Rope 6 mm Dia",
+      "uom": "Mtr",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Insulation - Ceramic Fibre Strip",
+      "uom": "Nos",
+      "hsnCode": "69039030",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 135 N",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 140 N",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 150 N",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 160 N",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 160 S",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 170 N",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 170 N-LP",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALCAST 180 N-LP",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Castable Normal",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Castable Super",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Castable 60-K",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Castable 50-C",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Castable 90-A",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Castable 90-A - Ladle Patching",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Castable 90-A - Coil coating",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "CUMICRETE CA 392 M",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "CUMICRETE CA 85 M",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALINCAST 11",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "DALINCAST 13",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "PHOSCAST 90-AR",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "VR CAST LC 45",
+      "uom": "Kgs",
+      "hsnCode": "69039040",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Lock Washer",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Stud 6\"",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Stud 8\"",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 - Stud &Lock Washer (3X6.5X204 mm)",
+      "uom": "Set",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Blank 6 x 40 x 640 IS 6",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 FLAT Y ANCHOR 6x25x165 mm ",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Split Y Anchor",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Split Y Anchor A16",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Split Y Anchor A72",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Split Y Anchor A94",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Y Anchor 5 X 25 X 165 mm",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 Lock Washer",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 - 3 X 6.5 X 152 IS 6 Anchor Stud",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 - Lock Washer",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 Flat \"Y\" Anchor",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 Stud 6\"",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 Stud 8\"",
+      "uom": "Nos",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 Stud 6\" & Lock Washer",
+      "uom": "Set",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 310 Stud 8\" & Lock Washer",
+      "uom": "Set",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Stud 8\" & Lock Washer",
+      "uom": "Set",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "SS 304 Stud 6\" & Lock Washer",
+      "uom": "Set",
+      "hsnCode": "73160010",
+      "gstPerctage": "18"
+    },
+    {
+      "itemDesc": "Bentonite Powder",
+      "uom": "Kgs",
+      "hsnCode": "25081090",
+      "gstPerctage": "5"
+    }
+  ]
+}

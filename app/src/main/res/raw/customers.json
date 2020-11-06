@@ -1,0 +1,1184 @@
+{
+  "customers": [
+    {
+      "customer_name": "M/s. KAMACHI INDUSTRIES LIMITED",
+      "gstn": "33AACCK6172C1ZW",
+      "address": "Survey No. 86, 115-119, 123, Pathapalayam Village, S.R. Kandigai Post, Gummidipoondi - 601 201, Thiruvallur Dist, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. KEYEM STEEL REROLLING MILL",
+      "gstn": "32AAEFK7395Q1ZM",
+      "address": "KAIRARALAL POST, PADIKUNNU, KANNUR, KERALA, India, Pin Code - 670202."
+    },
+    {
+      "customer_name": "M/s. A K Traders",
+      "gstn": "33AAIPN2460K1ZO",
+      "address": "No. 1-A, Charles Nagar, 2nd Street, Tiruvottiyur, Chennai - 600019."
+    },
+    {
+      "customer_name": "M/s. MAXTHERM INDIA PRIVATE LIMITED",
+      "gstn": "33AAKCM3314L1ZH",
+      "address": "No. 34, SIDCO Industrial Estate, BHEL Ancillary, Ranipet - 632 406, Vellore Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. A.N.S.ENTERPRISES",
+      "gstn": "33AFJPJ8790A1ZH",
+      "address": "No 57/A,D.K.Salai,Old Pallavaram, Chennai- 600117"
+    },
+    {
+      "customer_name": "M/s. DRA INDUSTRIES LIMITED",
+      "gstn": "37AAHCA0323J1ZX",
+      "address": "Apiic Industrial Park, Attivaram Village, Ozili Mandal, Naidupet, Nellore Dist, Andhra Pradesh - 524 421."
+    },
+    {
+      "customer_name": "M/s. SRIMATHI LINING WORKS ",
+      "gstn": "33CWTPS6239Q1ZC",
+      "address": "14, Sri Nagar, Housing Unit, Vannarapet, Coonor, Nilgiris District, Tamil Nadu - 643102."
+    },
+    {
+      "customer_name": "M/s. Kamachi steels Limited",
+      "gstn": "33AAACK4450B1Z7",
+      "address": "5/58, G N T Road, Durainallur, Pudhuvoyal Post, Ponneri - 601 201, Thiruvallur District, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. RBA Export Private Limited",
+      "gstn": "33AABCR7429N1Z1",
+      "address": "Plot 56-61, EPIP, SIPCOT Industrial Complex, Gummidipoondi - 601201, Thiruvallur Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. M.O.C. Dies and Moulds",
+      "gstn": "33AAFFM3468F1ZE",
+      "address": "44/45, SIDCO Industrial Estate, North Phase, 11th Street, Ambattur, Chennai - 600098."
+    },
+    {
+      "customer_name": "M/s. J R Furnace & Ovens Private Limited",
+      "gstn": "33AACCJ0757E1ZY",
+      "address": "No. L-4, Sidco Industrial Estate, Villivakkam, Chennai - 600 049, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. EL FORGE Limited (Appur Div)",
+      "gstn": "33AAACE1706C1ZI",
+      "address": "1A, Sriperumbudur High Rd, Appur, Singaperumal Koil (via), Chengalpet Taluk - 603204, Tamil Nadu, India"
+    },
+    {
+      "customer_name": "M/s. KARTIK STEELS LIMITED",
+      "gstn": "33AAACK2422K1ZW",
+      "address": "Plot No 52 & 53, Sipcot Industrial Complex, Ranipet - 632 403, India"
+    },
+    {
+      "customer_name": "M/s. IMAC ALLOY CASTINGS PRIVATE LIMITED",
+      "gstn": "33AADCI1766K1ZI",
+      "address": "877/2, Thattankulam Road, Madhavaram, Chennai - 60."
+    },
+    {
+      "customer_name": "M/s. SLO Industries Private Limited",
+      "gstn": "33AAICS5453Q1ZR",
+      "address": "67/1, 2A & 2 B, Chinnambedu Village, GNT Road, Ponneri - 601 204."
+    },
+    {
+      "customer_name": "M/s. CMR TOYOTSU ALUMINIUM INDIA PRIVATE LIMITED",
+      "gstn": "33AAECC9550A1Z2",
+      "address": "A-4 & A-5, Sipcot Industrial Park, Pillaipakkam, Sriperumpudur - 602 105, Kanchipuram District, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. RV Refractories",
+      "gstn": "33AAAFR5118G1ZL",
+      "address": "5A, Electrical Industrial estate, Kakalur - 602 003, Trivellore Dist"
+    },
+    {
+      "customer_name": "M/s. SAR ISPAT PRIVATE LIMITED, UNIT-2 EOU",
+      "gstn": "34AABCS5915L2Z6",
+      "address": "Rs no 215, Thirukkanur road, Kalithirthalkuppam, Madagadipet, Pondicherry, 605107"
+    },
+    {
+      "customer_name": "M/s. Pyromaster Furnaces Private Limited",
+      "gstn": "33AAACP6594R1Z0",
+      "address": "A-13, Sidco Industrial Estate, Villivakkam, Chennai - 600049."
+    },
+    {
+      "customer_name": "M/s. Sree Sumangala Metals and Industries ( P ) Limited ",
+      "gstn": "33AABCS0343J1ZP",
+      "address": "B51 - SIPCOT Industrial Complex, GummidiPoondi - 601201, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. SAR ISPAT PRIVATE LIMITED, UNIT-2 EOU",
+      "gstn": "34AABCS5915L2Z6",
+      "address": "Rs No. 215, Thirukkanur Road, Kalithirthalkuppam, Madagadipet, Pondicherry - 605107, India."
+    },
+    {
+      "customer_name": "M/s. IGP ENGINEERS PRIVATE LIMITED",
+      "gstn": "33AAACI0920Q1ZN",
+      "address": "198/5, Gangai Amman Koil street, Keezhur Village, Kottamedu Post, Thiruporur Taluk, Kanchipuram Dist - 603 108, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Avigna Aluminium Company Private Limited",
+      "gstn": "33AAJCA9800G1ZU",
+      "address": "R16 - SIPCOT Industrial Complex, GummidiPoondi, Pin - 601201, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Pyromaster Furnaces Private Limited",
+      "gstn": "33AAACP6594R1Z0",
+      "address": "A-13, Sidco Industrial Estate, Villivakkam, Chennai - 600049"
+    },
+    {
+      "customer_name": "M/s. ARS Steels and Alloy International Private Limited",
+      "gstn": "33AALCA9425H1ZL",
+      "address": "B-1/S, SIPCOT Industrial Complex, Gummidipoondi - 601201, Thiruvallur Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. KAMACHI INDUSTRIES LIMITED  [SMD Division]",
+      "gstn": "33AACCK6172C1ZW",
+      "address": "Survey No. 86, 115-119, 123, Pathapalayam Village, S.R. Kandigai Post, Gummidipoondi - 601 201, Thiruvallur Dist, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. TULYSAN NEC LIMITED",
+      "gstn": "33AABCT3720E1ZW",
+      "address": "Unit 3, D4 - SIPCOT Industrial Complex, GummidiPoondi - 601201, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. JEPPIAAR FURNACE & STEELS PRIVATE LIMITED",
+      "gstn": "33AACCJ3108M1ZQ",
+      "address": "No. 158, Kunnavakkam Village, Panrutti Post, Kanchipuram Dist - 631 604, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. AGRA WIRE  INDUSTRIES",
+      "gstn": "33AASFA3122D1ZY",
+      "address": "69, CHITTORNATHAM VILLAGE, GUMMIDIPOONDI TALUK, THIRUVALLUR DISTRICT - 601 201, TAMIL NADU. M-9994575280"
+    },
+    {
+      "customer_name": "M/s. MTC BUSINESS PRIVATE LIMITED",
+      "gstn": "33AACCM4795M1Z0",
+      "address": "147, 147/1, MADHARPAKKAM ROAD, OBULAPURAM VILLAGE, GUMMIDIPOONDI, THIRUVALLUR TALUK - 601 201."
+    },
+    {
+      "customer_name": "M/s. MANARI & MANARI",
+      "gstn": "33AAZFM8190N1Z8",
+      "address": "Old No. H/16/6/01, New No. 21/1, Ist Floor, Jawaharlal Nehru Road, Vadapalani, Chennai - 600026."
+    },
+    {
+      "customer_name": "M/s. Best Cast It Limited",
+      "gstn": "33AAACB1423H1ZD",
+      "address": "Plot No. 58, [SP], SF No. 184, 185 (Part), Sector II, 3rd Cross Road, Ambattur I.E. South, Ambattur, Chennai - 600 058, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Essco Furnaces Private Limited",
+      "gstn": "33AAACE3098D1ZZ",
+      "address": "DP 230 & 231, 8th Cross Street, 8th Main Road, SIDCO Industrial estate, Thirumidivakkam, Chennai - 44."
+    },
+    {
+      "customer_name": "M/s. Pyromaster Furnaces Private Limited",
+      "gstn": "33AAQCS7236K1ZU",
+      "address": "A-13, Sidco Industrial Estate, Villivakkam, Chennai - 600049"
+    },
+    {
+      "customer_name": "M/s. Chetna Steel Tubes Private Limited",
+      "gstn": "33AADCC7052J1ZR",
+      "address": "Corner Estate 32, 3rd Floor, Sembudoss Street, George Town, Chennai - 600 001, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Control Scientific Works Private Limited",
+      "gstn": "33AABCC9072A1Z4",
+      "address": "No.8/26, Pasumarthy St, IInd Lane, Kodambakkam,Chennai - 600024."
+    },
+    {
+      "customer_name": "M/s. THE KCP LIMITED",
+      "gstn": "33AAACT8046J1Z9",
+      "address": "P.B No. 2278, No. 8 Basin Road, Tiruvottiyur, Chennai - 600019."
+    },
+    {
+      "customer_name": "M/s. Vishnupria Paper Mill Private Limited",
+      "gstn": "33AAACV3007D1Z1",
+      "address": "Jagannathapuram Village, Ponneri Taluk, Thiruvallur, Chennai - 67."
+    },
+    {
+      "customer_name": "M/s. Steamtech Products",
+      "gstn": "33AAVPY5038M1ZS",
+      "address": "Huzur Garden, 38, Madhavaram High Road, Moolakkadai, Chennai - 600 060."
+    },
+    {
+      "customer_name": "M/s. Sri Vadivudai Amman Steel Co.",
+      "gstn": "33ABQFS4162A1ZC",
+      "address": "No. 3/1, Manali Express Road, T.K.P. Nagar, Thiruvottiyur, Chennai - 600 019."
+    },
+    {
+      "customer_name": "M/s. TALCO ALUMINIUM COMPANY",
+      "gstn": "33AAEFT9820F1Z8",
+      "address": "F-60 SIPCOT INDUSTRIAL COMPLEX GUMMUDIPOONDI - 60120"
+    },
+    {
+      "customer_name": "M/s. ELUMALAI INSULATION SERVICES",
+      "gstn": "33AFZPT4174Q3Z6",
+      "address": "264, Redhills Main Road, Kallikuppam, Ambattur, Chennai - 53."
+    },
+    {
+      "customer_name": "M/s. Suntrust Aluminium Private Limited",
+      "gstn": "33AAQCS7236K1ZU",
+      "address": "K32 A, Sipcot Industrial Complex, Opposite to M/s. SKI Carbon, Gummidipoondi, Tamil Nadu - 601201."
+    },
+    {
+      "customer_name": "M/s. Matangi Rubber pvt ltd",
+      "gstn": "33AAECM3222B1Z9",
+      "address": "D P 31&32 Sidco Industrial estate, Gummidipoondi,601201 Tamil nadu"
+    },
+    {
+      "customer_name": "M/s. Agra Castings Private Limited",
+      "gstn": "33AAECA1767B1Z7",
+      "address": "19/1C2, 70 Chinnambedu Village, Ponneri Taluk, Thiruvallur Dist, Pin Code - 601206."
+    },
+    {
+      "customer_name": "M/s. Kamachi steels Private Limited",
+      "gstn": "33AAACK4450B1Z7",
+      "address": "5/58, G N T Road, Durainallur, Pudhuvoyal Post, Ponneri - 601 201, Thiruvallur District, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. ASHOK LEYLAND LIMITED [FOUNDRY DIVISION]",
+      "gstn": "33AAACA4651L1ZT",
+      "address": "Ennore, Chennai - 600 057, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Refratech Monolithic Engineering Solutions",
+      "gstn": "33AAYFR4107R1ZF",
+      "address": "No. 69, G-2, Sarathy Malika, Sri Sakthi Nagar Main Road, Arumbakkam, Chennai - 600 106."
+    },
+    {
+      "customer_name": "M/s. CMS Ndt & Engineering Private Limited,",
+      "gstn": "33AAECC9718Q1Z3",
+      "address": "DP 1, Developed Plot, Electrical Industrial estate, Kakkalur – 602 003, Thiruvallur District, Tamil Nadu. "
+    },
+    {
+      "customer_name": "M/s. KOTHARI PETROCHEMICALS LIMITED",
+      "gstn": "33AAACK1347H1ZX",
+      "address": "No. 1/2 B,33/5,Sathangadu, Manali, Chennai 600068, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. Noble Tech Industries Private Limited",
+      "gstn": "33AABCV9111H1ZJ",
+      "address": "14/2 A2, Melpakkam Village, Uthiramerur Taluk, Kaliampoondi (Via), Kancheepuram Dist, 603 402, INDIA"
+    },
+    {
+      "customer_name": "M/s. MIL STEEL AND POWER LIMITED",
+      "gstn": "33AAFCS5676N2ZQ",
+      "address": "F-14, SIPCOT INDUSTRIAL COMPLEX, GUMMIDIPOONDI - 601 201."
+    },
+    {
+      "customer_name": "M/s. HITECH CASTINGS PRIVATE LIMITED",
+      "gstn": "33AAACH0917Q2ZI",
+      "address": "408, 13th Street, SIDCO Industrial Estate, Ambattur, Chennai - 600 098."
+    },
+    {
+      "customer_name": "M/s. Dongwoo Surfacetech (India) Private Limited,",
+      "gstn": "33AACCD3315L1ZX",
+      "address": "Plot no 126, Samathuvapuram, Mappedu, Ulundai post Thiruvallur District, Tamil Nadu - 602105."
+    },
+    {
+      "customer_name": "M/s. Dongwoo Surfacetech (India) Private Limited,",
+      "gstn": "33AACCD3315L1ZX",
+      "address": "Plot no 126, Samathuvapuram, Mappedu, Ulundai post Thiruvallur District, Tamil Nadu.-602105"
+    },
+    {
+      "customer_name": "M/s. Peekay Rolling Mills (P) Ltd",
+      "gstn": "32AABCP3518J1ZN",
+      "address": "Nallalam, Kozhikode. Kerala - 673027."
+    },
+    {
+      "customer_name": "M/s. DALMIA REFRACTORIES LIMITED",
+      "gstn": "33AABCS5453M1Z6",
+      "address": "Dalmiapuram - 621 651, Trichy Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. J J POLYMERS",
+      "gstn": "33AAFFJ2686N1ZY",
+      "address": "Old No. 51, New No. 162, Ellaya Mudali Street, Korukkupet, Chennai - 600021, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. PASHUPATI METALLICS",
+      "gstn": "33AALFP6133E2ZE",
+      "address": "S F No. 14 & 15, PERIYAPULIYUR VILLAGE, GUMMIDIPOONDI - 601 201, TAMIL NADU."
+    },
+    {
+      "customer_name": "M/s. ASHOK LEYLAND LIMITED [FOUNDRY DIVISION]",
+      "gstn": "33AAACA4651L1ZT",
+      "address": "Plot no K-2, Sipcot Industrial estate, Arneri village, Sriperumbudur-- 602 105, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Mogli Labs (India) Private Limited",
+      "gstn": "33AAJCM7312H1ZL",
+      "address": "40/20, Ground Floor, Ibrahim Sahib Street, Second Lane, Mannady, Near Manaddy ARC Godown, Chennai - 600 001."
+    },
+    {
+      "customer_name": "M/s. DHARANI SUGARS AND CHEMICALS LIMITED",
+      "gstn": "33AAACD1281F1Z7",
+      "address": "Kalayanallur - 606206, Villupuram District, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. J R Metal Chennai Limited",
+      "gstn": "33AACCJ0990P1Z8",
+      "address": "Periyapuliyur Village, Poovalampedu Post, Via Kavarapettai, Gummidipoondi Taluk, Thiruvallur Dist, Tamil Nadu - 601 206."
+    },
+    {
+      "customer_name": "M/s. Southwest Industries",
+      "gstn": "33COJPR1191C1Z3",
+      "address": "702/D, JNN College Road, Kannigaipair, Periyapalayam Highway, Pin - 601 102. Tamil Nadu"
+    },
+    {
+      "customer_name": "M/s. Rajguru Adhesive Tape Company Private Limited",
+      "gstn": "33AAMCS5728G1Z6",
+      "address": "S - 57, Sipcot Pillaipakkam Industrial Park, Vengadu village, Sriperumbudur taluk, Kanchipuram District Tamilnadu - 602105."
+    },
+    {
+      "customer_name": "M/s. Pyromaster Furnaces Private Limited",
+      "gstn": "33AAACP6594R1ZO",
+      "address": "A-13, Sidco Industrial Estate, Villivakkam, Chennai - 600049"
+    },
+    {
+      "customer_name": "M/s. RD Industries",
+      "gstn": "33AASFR1939B1Z8",
+      "address": "47/208, Sri Ganesh Street, Nageswara Rao Road, Athipet, chennai - 600 058."
+    },
+    {
+      "customer_name": "M/s. S V S Alloys Pvt Ltd",
+      "gstn": "37ABACS5193E1Z9",
+      "address": "Survey No. 23/5, Anupallipadu village, Manubolu mandal, Nellore - 524320,Andhra Pradesh."
+    },
+    {
+      "customer_name": "M/s. E Dynamics",
+      "gstn": "33AADFE4293N1Z6",
+      "address": "3/180, Gangai Amman Koil Street, Palavayal, Theerthakaraipattu, Redhills, Chennai - 600052."
+    },
+    {
+      "customer_name": "M/s. Praksh Ferrous Industries (P) Ltd",
+      "gstn": "37AAECP7094C1ZA",
+      "address": "27/1, Urandur Village, Srikalahasthi Village, Andhra Pradesh - 517 644."
+    },
+    {
+      "customer_name": "M/s. Avighna Aluminium Company Private Limited",
+      "gstn": "33AAJCA9800G1ZU",
+      "address": "R-16, SIPCOT Industrial Complex, Gummidipoondi - 601201, Thiruvallur Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. MARUTHI INDUSTRIAL SERVICES",
+      "gstn": "33AYZPT8900F1ZU",
+      "address": "1, Pillaiyar koil Street, Thirumanam village, Chithukadu, Chennai - 600072"
+    },
+    {
+      "customer_name": "M/s. ASHOK RAI BOARDS",
+      "gstn": "33AAQFA5510M1ZD",
+      "address": "Post: Poochatipet, Village: Karani, Via RedHills, Chennai - 600052"
+    },
+    {
+      "customer_name": "M/s. PUSHPIT STEELS PRIVATE LIMITED",
+      "gstn": "34AABCP0515H1ZX",
+      "address": "Rs. No. 94/2, 3 & 4, Erripakkam Village, Nettapakkam Commune, Pondicherry- 605 107."
+    },
+    {
+      "customer_name": "M/s. Splendid Metal Products Limited",
+      "gstn": "33AACCS8614H1ZF",
+      "address": "Survey No. 204/3-B, Manjakaranai Village, Periyapalayam Road, Thiruvallur Dist - 601 102."
+    },
+    {
+      "customer_name": "M/s. JEPPIAAR FURNACE & STEELS PVT LIMITED",
+      "gstn": "33AACCJ3108M1ZQ",
+      "address": "No. 158, KUNNAVAKKAM Village, Panrutti Post, Kanchipuram Dist, 631604 Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. Essco Furnaces Private Limited",
+      "gstn": "33AAACE3098D1ZZ",
+      "address": "230/231, Developed Plots, SIDCO Industrial estate, Thirumidivakkam, Chennai - 41."
+    },
+    {
+      "customer_name": "M/s. Shetty Chemical & Engineering Works Private Limited",
+      "gstn": "27AAACS5641N1Z0",
+      "address": "Gut No. 1251, Plot No 15, 16 Weikfield Indl Estate, Sanaswadi, Taluk Shirur, Dist Pune - 412208, Maharashtra."
+    },
+    {
+      "customer_name": "M/s. SLM ASSOCIATES",
+      "gstn": "33ABGFS1453A1ZQ",
+      "address": "743 Swamiar Madam, Red Hills, Chennai - 52"
+    },
+    {
+      "customer_name": "M/s. Tulsyan Nec Limited,",
+      "gstn": "33AABCT3720E1ZW",
+      "address": "Unit 3, D4 - SIPCOT Industrial Complex, GummidiPoondi - 601201, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Axiom Thermo Furnaces",
+      "gstn": "33AAZFA6457G1Z1",
+      "address": "DP no 111A,1st lane,1st cross main road,3rd sector, North Phase,Sidco Industrial Estate, Ambattur , Chennai - 600 098, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. KAMACHI STEELS LIMITED [Rolling Mill Division]",
+      "gstn": "33AAACK4450B1Z7",
+      "address": "B-4/N (b), SIPCOT INDUSTRIAL COMPLEX, Gummidipoondi - 601 201, Thiruvallur Dist, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. INDO STEEL REROLLERS",
+      "gstn": "33AAAFI7572F1ZI",
+      "address": "159, Sadayankuppam Village, Manali, Chennai - 600103."
+    },
+    {
+      "customer_name": "M/s. Best Cast It Limited",
+      "gstn": "33AAACB1423H1ZD",
+      "address": "Plot No. 58, [SP], SF No. 184, 185 (Part), Sector II, 3rd Cross Road, Ambattur I.E. South, Ambattur, Chennai - 600 058, Tamil Nadu, India"
+    },
+    {
+      "customer_name": "M/s. Suntrust Aluminium Pvt Ltd",
+      "gstn": "33AAQCS7236K1ZU",
+      "address": "K32 A, Sipcot Industrial Complex, Opp to M/s SKI Carbon, Gummidipoondi, Tamil Nadu - 601201"
+    },
+    {
+      "customer_name": "M/s. PWHT Solutions Private Limited",
+      "gstn": "33AAICP2001K2ZR",
+      "address": "20/2, G.K. Industrial Estate, Alapakkam, Chennai - 600 116, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. KAMACHI INDUSTRIES LIMITED - Non Conventional Power Division",
+      "gstn": "33AACCK6172C1ZW",
+      "address": "Survey No. 86, 115-119, 123, Pathapalayam Village, S.R. Kandigai Post, Gummidipoondi - 601 201, Thiruvallur Dist, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. KAMACHI INDUSTRIES LIMITED - Sponge Iron Division",
+      "gstn": "33AACCK6172C1ZW",
+      "address": "Survey No. 86, 115-119, 123, Pathapalayam Village, S.R. Kandigai Post, Gummidipoondi - 601 201, Thiruvallur Dist, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. Vkn Technical Services",
+      "gstn": "33ABEPV9917E2ZE",
+      "address": "312, GST Road, Near GH, Chromepet, Chennai – 600 044. "
+    },
+    {
+      "customer_name": "M/s. Southern Boilers & Equipments Private Limited",
+      "gstn": "33AACCS9085Q2ZK",
+      "address": "93, Sidco Industrial Estate, Kakkalur - 602003, Trivellore Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Wheels India Limited",
+      "gstn": "33AAACW0315K1ZO",
+      "address": "Survey no: 449/A1, Singaperumal Koil Road, Pondur Village, Sriperumbudur - 602105, Tamil Nadu, India"
+    },
+    {
+      "customer_name": "M/s. AKSHOBHYA STEELS PRIVATE LIMITED",
+      "gstn": "33AAPCA2608G2ZV",
+      "address": "70/1A, 70/2, Alinjivakkam Village, Ponneri Taluk, Chennai - 600 067."
+    },
+    {
+      "customer_name": "M/s. Agnimax Engineers",
+      "gstn": "33EGOPK8235H1Z3",
+      "address": "12/25, Pillaiyar Koil Street, West Mambalam, Chennai - 33"
+    },
+    {
+      "customer_name": "M/s. AGRA CASTINGS PRIVATE LIMITED",
+      "gstn": "33AAECA1767B1Z7",
+      "address": "19/1, C-2, 70, CHINNAMBEDU VILLAGE, PONNERI TALUK, THIRUVALLUR DISTRICT - 601 206, TAMIL NADU. M-9994575280"
+    },
+    {
+      "customer_name": "M/s. Sri Sreenivasa Paper Mills Private Limited",
+      "gstn": "33AAGCS2707K1ZE",
+      "address": "No 205Z, Jagannathapuram Village, Ponneri Taluk, Thiruvallur District, Chennai - 600067."
+    },
+    {
+      "customer_name": "M/s. Indiad Engineers Private Limited",
+      "gstn": "33AAACI2717B1ZB",
+      "address": "DP-56, SIDCO INDUSTRIAL ESTATE, PHASE - II, MANALI NEW TOWN, VICHOOR, CHENNAI - 600 103."
+    },
+    {
+      "customer_name": "M/s. Vishwashanti Mercandise Private Limited",
+      "gstn": "33AAACV9974H1ZX",
+      "address": "232, SIDCO Industrial Estate, Pattravakkam 9th Street, Chennai - 98."
+    },
+    {
+      "customer_name": "M/s. Sree Sumangala Metals and Industries ( P ) Limited ",
+      "gstn": "33AABCS0343J1ZP",
+      "address": "B-51, SIPCOT Industrial Complex, GummidiPoondi - 601201, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. S Kumar Modern Rice Mill",
+      "gstn": "33ADBFS5640L1ZZ",
+      "address": "33/2A, 2B, Kuruthanamedu Village, Panapakkam Panchayat, New Gummidipoondi - 601 206"
+    },
+    {
+      "customer_name": "M/s. Madras Centrifugal Castings",
+      "gstn": "33AALPP7806N1Z5",
+      "address": "7,Munusamy Road, Vanagaram 3rd Main Road, Athipet, Chennai - 600 058."
+    },
+    {
+      "customer_name": "M/s. INDIA FORGE AND DROP STAMPINGS LIMITED",
+      "gstn": "33AAACI1593H1ZR",
+      "address": "A1 J, Industrial Complex, Maraimalai Nagar - 603 209, Kancheepuram Dist, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. V K FASTENERS PRIVATE LIMITED",
+      "gstn": "33AAECV9380M1ZQ",
+      "address": "No. 79, Valmiki Street, Tiruvanmaiyur, Chennai - 41."
+    },
+    {
+      "customer_name": "M/s. JEY EM JEY KEMSCO",
+      "gstn": "33AORPM1506N1ZO",
+      "address": "No. 11, 3rd Cross Street, Lakshmi Nagar, Porur, Chennai - 600 116."
+    },
+    {
+      "customer_name": "M/s. Vishnupriya Paper Mill Private Limited",
+      "gstn": "33AAACV3007D1Z1",
+      "address": "Jagannathapuram Village, Ponneri Taluk, Thiruvallur, Chennai - 67."
+    },
+    {
+      "customer_name": "M/s. MAXTHERM BOILERS PRIVATE LIMITED",
+      "gstn": "33AAKCM3557H1ZD",
+      "address": "No. 35, SIDCO Industrial Estate, BHEL Ancillary, Ranipet - 632 406, Vellore Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Eco Mills",
+      "gstn": "33AEZPM9962J1ZH",
+      "address": "Sayanavaram, Ponneri"
+    },
+    {
+      "customer_name": "M/s. Deccan Extrusions Private limited",
+      "gstn": "34AADCD0292K3ZO",
+      "address": "RS no 101/4, Vazhudavur, Thuttipattu village, Pondicherry 605502"
+    },
+    {
+      "customer_name": "M/s. Mechtherm Engineering",
+      "gstn": "33AGXPD7519E2Z9",
+      "address": "37, Damodaran Street, T. Nagar, Chennai - 600 017."
+    },
+    {
+      "customer_name": "M/s. Deccan Extrusions Private limited",
+      "gstn": "34AADCD0292K3ZO",
+      "address": "RS No. 101/4, Vazhudavur, Thuttipattu village, Pondicherry 605502, India."
+    },
+    {
+      "customer_name": "M/s. J R Metal Chennai Limited",
+      "gstn": "33AACCJ0990P1Z8",
+      "address": "Periyapuliyur Village, Poovalampedu Post, Via Kavarapettai, Gummidipoondi Taluk, Thiruvallur Dist, Tamil Nadu - 601 206"
+    },
+    {
+      "customer_name": "M/s. BDJ OXIDES PRIVATE LIMITED",
+      "gstn": "37AAECB3392D1ZT",
+      "address": "Plot No. 10, APIIC Industrial Park, Attivaram - 524 421, Ozili Mandal, Nellore District, Andhra Pradesh."
+    },
+    {
+      "customer_name": "M/s. Avanti Metals Private Limited",
+      "gstn": "33AACCS9725P1ZS",
+      "address": "No. 7/1 & 4/3, Komal Road, Maruthur Village, Therizhandur, Nagapattinam - 609808, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Magnatherm Alloys Private Limited",
+      "gstn": "33AACCM6324N1ZD",
+      "address": "13E, SIPCOT Industrial Complex, Gummidipoondi - 601 201"
+    },
+    {
+      "customer_name": "M/s. Peninsula Industry",
+      "gstn": "33ARFPP9796G1Z6",
+      "address": "174/4E2, East Street, Peramanur, Salem - 636007, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. A.N.S. ENTERPRISES",
+      "gstn": "33AFJPJ8790A1ZH",
+      "address": "No 57/A, D.K.Salai, Old Pallavaram, Chennai - 600117."
+    },
+    {
+      "customer_name": "M/s. R D Industries",
+      "gstn": "33AASFR1939B1Z8",
+      "address": "47/208, Sri Ganesh Street, Nageswara Rao Road, Athipet, Chennai - 600 058."
+    },
+    {
+      "customer_name": "M/s. Apollo Polyvinyl Private Limited",
+      "gstn": "33AAJCA5430A2ZB",
+      "address": "Siruvada Village, Gummidipoondi Taluk, Thiruvallur Dist – 601 202."
+    },
+    {
+      "customer_name": "M/s. Sri Sabarishan Fabrication",
+      "gstn": "33ALXPR6763R1ZQ",
+      "address": "Site No. 10, 11 RECP Back Side, Malumichampatti, Coimbatore - 641 050. "
+    },
+    {
+      "customer_name": "M/s. ARJUN METAL",
+      "gstn": "33ABIFA3321M1ZM",
+      "address": "101/3, SIDCO INDUSTRIAL ESTATE, THIRUMAZHISAI, CHENNAI - 600 124."
+    },
+    {
+      "customer_name": "M/s. JEPPIAAR FURNACE & STEELS PVT LIMITED",
+      "gstn": "33AACCJ3108M1ZQ",
+      "address": "No. 158, Kunnavakkam Village, Panrutti Post, Kanchipuram Dist - 631 604, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. White Refractories",
+      "gstn": "33AABFW6665J1ZU",
+      "address": "RS No. 53A / 10, Periyavadavadi Village, Virudhachalam, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. SLM ASSOCIATES",
+      "gstn": "33ABGFS1453A1ZQ",
+      "address": "743 Swamiyar Madam, Red Hills, Chennai - 52"
+    },
+    {
+      "customer_name": "M/s. GLOBAL ENGINEERING & REFRACTORIES",
+      "gstn": "33APFPM0132F1ZJ",
+      "address": "142, Sri Srinivasa Morder Town, Vadaperumbakkam, Chennai - 600060"
+    },
+    {
+      "customer_name": "M/s. A.N.S. Enterprises",
+      "gstn": "33AFJPJ8790A1ZH",
+      "address": "No. 57/A, D.K.Salai, Old Pallavaram, Chennai - 600117."
+    },
+    {
+      "customer_name": "M/s. Supreme Mill Stores",
+      "gstn": "33AAYFS0260J1ZW",
+      "address": "21, Errabalu Chetty Street, Broadway, Chennai - 600 001."
+    },
+    {
+      "customer_name": "M/s. Sakthi Ferro Alloys India Private Limited",
+      "gstn": "37AAJCS3251K1Z2",
+      "address": "No. 151/1 ABC, 16, 17/1AB, 2A, Vasanadu Gollapalle Village, Kuppam Mandal, Chittoor Dist - 517425, Andhra Pradesh, India."
+    },
+    {
+      "customer_name": "M/s. Almet Castings Private Limited",
+      "gstn": "33AAACA6207A1ZK",
+      "address": "# 102, Pattravakkam Railway station Road, Ambattur, Chennai - 600 098."
+    },
+    {
+      "customer_name": "M/s. MADRAS REFRACTORY WORKS PRIVATE LIMITED",
+      "gstn": "33AAACM5285C1ZS",
+      "address": "70/2 & 70/6, MANALURPET MAIN ROAD, VILANDAI POST, TIRUKOILUR TALUK, VILLUPURAM DISTRICT - 605 760, TAMIL NADU, INDIA."
+    },
+    {
+      "customer_name": "M/s. Pack Tec Industries",
+      "gstn": "37AANFP2101Q2ZV",
+      "address": "Sy No. 1217/1, Iskapalem Village, Venkatachalam Mandal, S.P.S.R Nellore District - 524320, Andhra Pradesh, India."
+    },
+    {
+      "customer_name": "M/s. ELASTOMERIC ENGINEERS",
+      "gstn": "33AAAFE8584H1ZC",
+      "address": "The Salem Aeropark, No. 8/63, National Highway - 7, Ammapalayam Village, Mallur, Salem - 636 203, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Sai Balaaji Refractories Private Limited",
+      "gstn": "33AAUCS8854R1Z2",
+      "address": "No 89, MTH Road, Ambattur Industrial Estate, Chennai - 600058."
+    },
+    {
+      "customer_name": "M/s. ASHOK RAI BOARDS",
+      "gstn": "33AAQFA5510M1ZD",
+      "address": "Post: Poochatipet, Village: Karani, Via RedHills, Chennai - 600052."
+    },
+    {
+      "customer_name": "M/s. Rangoon Marketing",
+      "gstn": "33AAKFR0686H1Z2",
+      "address": "307, Thambu Chetty Street, Near Royapuram Bridge, Chennai - 1"
+    },
+    {
+      "customer_name": "M/s. KARTIK STEELS LIMITED",
+      "gstn": "33AAACK2422K1ZW",
+      "address": "Plot No 52 & 53, Sipcot Industrial Complex, Ranipet, Vellore District - 632 403, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Janakiraman Steel And Power Private Limited",
+      "gstn": "33AACCJ3793L1Z9",
+      "address": "117, Sadayankuppam Village, Manali, Chennai."
+    },
+    {
+      "customer_name": "M/s. GOYAL ISPAT LIMITED",
+      "gstn": "33AAACG2191B1Z9",
+      "address": "24, Padalam Sugar Mill Road, Palayanur, Kanchipuram Dist 603308"
+    },
+    {
+      "customer_name": "M/s. RV Refractories",
+      "gstn": "33AAAFR5118G1ZL",
+      "address": "5A, Electrical Industrial estate, Kakkalur - 602 003, Trivellore District, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Vijayalakshmi Forge & Stamping",
+      "gstn": "33AADPK5344G1Z0",
+      "address": "Unit No. 2, Plot No. G-50, SIDCO Industrial Estate, Kakkalur - 602003."
+    },
+    {
+      "customer_name": "M/s. Veeyes Steelcast Private Limited",
+      "gstn": "33AAECV0350M1ZE",
+      "address": "4/363-A, Kallipalayam, Chikarampalayam Village Post, Karamadai, Coimbatore - 641 104, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Axiom Thermo Furnaces Private Limited",
+      "gstn": "33AAFCA0822N1ZV",
+      "address": "DP no 111A,1st lane,1st cross main road,3rd sector, North Phase,Sidco Industrial Estate, Ambattur , Chennai - 600 098, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Hariharan Foundations Private Limited",
+      "gstn": "37AAACH9715N1Z3",
+      "address": "A/c- M/s. Daiki Aluminium Industry India Private Limited, No.: 370, Uni Road, Sricity - 517646, Tada Mandal, SPSR Nellore District, Andhra Pradesh, India. "
+    },
+    {
+      "customer_name": "M/s. CMR TOYOTSU ALUMINIUM INDIA PRIVATE LIMITED, [Unit-1]",
+      "gstn": "33AAECC9550A1Z2",
+      "address": "A-4 & A-5, Sipcot Industrial Park, Pillaipakkam, Sriperumpudur - 602 105, Kanchipuram District, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Shree Sabari Smelters Private Limited,",
+      "gstn": "33AAJCS5768H1ZZ",
+      "address": "Plot No 84 & 85, SIDCO Industrial Estate, Vichoor, Chennai - 600 103."
+    },
+    {
+      "customer_name": "M/s. Mogli Labs (India) Private Limited",
+      "gstn": "33AAJCM7312H1ZL",
+      "address": "Old No 121, New No 42, Rama Naicken Street, Royapuram Chennai - 600013. (Opposite Road To Subha Hospital, End of Veerachamy Street, Near Kamarajar Marriage Hall)."
+    },
+    {
+      "customer_name": "M/s. KOTHARI PETROCHEMICALS LIMITED",
+      "gstn": "33AAACK1347H1ZX",
+      "address": "No. 1/2-B, 33/5, Sathangadu Village, Manali, Chennai - 600068, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. Deccan Extrusions Private limited",
+      "gstn": "34AADCD0292K3ZO",
+      "address": "RS No. 101/4, Vazhudavur, Thuttipattu Village, Pondicherry 605502"
+    },
+    {
+      "customer_name": "M/s. Sai Balaaji Refractories Private limited",
+      "gstn": "33AAUCS8854R1Z2",
+      "address": "89, MTH Road, Ambattur Industrial Estate, Chennai - 58."
+    },
+    {
+      "customer_name": "M/s. V K FASTENERS PRIVATE LIMITED",
+      "gstn": "33AAECV9380M1ZQ",
+      "address": "# 79, Valmiki Street, Tiruvanmaiyur, Chennai - 600 041, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. CMR TOYOTSU ALUMINIUM INDIA PRIVATE LIMITED, Unit - II",
+      "gstn": "33AAECC9550A1Z2",
+      "address": "Plot: G - 108/2, Sipcot Industrial Park, Vallam Vadagal, Sriperumpudur - 602 105, Kanchipuram District, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. RUCHI SOYA INDUSTRIES LIMITED",
+      "gstn": "33AAACR2892L1Z5",
+      "address": "40-41, EAST MADA CHURCH STREET, ROYAPURAM, CHENNAI - 600013, TAMIL NADU, INDIA."
+    },
+    {
+      "customer_name": "M/s. MTC BUSINESS PRIVATE LIMITED",
+      "gstn": "33AACCM4795M1Z0",
+      "address": "147, 147/1, MADHARPAKKAM ROAD, PERIYA OBULAPURAM VILLAGE, GUMMIDIPOONDI, THIRUVALLUR TALUK - 601 201."
+    },
+    {
+      "customer_name": "M/s. Agnimax Engineers",
+      "gstn": "33EGOPK8235H1Z3",
+      "address": "26, Thirupathi Nagar Road, Ramapuram, Chennai - 89."
+    },
+    {
+      "customer_name": "M/s. Essco Furnaces Private Limited",
+      "gstn": "33AAACE3098D1ZZ",
+      "address": "DP 230 & 231, 8th Cross Street, 8th Main Road, SIDCO Industrial estate, Thirumidivakkam, Chennai - 600 044, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. MADRAS REFRACTORY WORKS PRIVATE LIMITED",
+      "gstn": "33AAACM5285C1ZS",
+      "address": "70/2 & 70/6, MAIN ROAD, VILANDAI POST, TIRUKOILUR TALUK, VILLUPURAM DISTRICT - 605 756, TAMIL NADU, INDIA."
+    },
+    {
+      "customer_name": "M/s. Sovereign Agrotech Refinery Pvt Ltd.",
+      "gstn": "33AAWCS3526Q1ZJ",
+      "address": "A-4/2 Part A, Sipcot Industrial Park, Thervoykandigai, Near Periyapalayam, Thiruvallur Dist., Pin - 601202, Tamilnadu, India."
+    },
+    {
+      "customer_name": "M/s. JKM Ferrotech Limited",
+      "gstn": "33AAECA1767B1Z7",
+      "address": "K 4, Phase II, Sipcot Industrial Compex, Gummidipoondi, Thiruvallur Dist, Pin Code - 601201."
+    },
+    {
+      "customer_name": "M/s. Lakshmi Refractories and Engineers",
+      "gstn": "33BIIPS6833A1ZD",
+      "address": "Ramesh Industrial Compex, Kamaraj nagar Tanjavur main road, Opp Reliance Mart, Ariyamangalam, Trichy - 620010."
+    },
+    {
+      "customer_name": "M/s. Sakthi Ferro Alloys India Private Limited",
+      "gstn": "37AAJCS3251K1Z2",
+      "address": "No. 15/1 ABC, 16, 17/1AB, 2A, Vasanadu Gollapalle Village, Kuppam Mandal, Chittoor Dist - 517 425, Andhra Pradesh."
+    },
+    {
+      "customer_name": "M/s. MALPANI ALLOY AND EXTRUSIONS PRIVATE LIMITED",
+      "gstn": "33AAFCM8713Q1ZZ",
+      "address": "No. 9, (Survey No. 369, 370), Eguvarpalayam village, Melpakkam, gummidipoondi, Thiruvallur District - 601 201, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Best Engineers",
+      "gstn": "33BAHPS8857D1ZD",
+      "address": "New No. 8, Old No. 70, New colony, Porur, Chennai - 116."
+    },
+    {
+      "customer_name": "M/s. SCIRO PIZZA",
+      "gstn": "33AAATA0037B1ZR",
+      "address": "Grace community Auroville, 605101.TamilNadu"
+    },
+    {
+      "customer_name": "M/s. Thiruvapathi Engineering Works,",
+      "gstn": "33AFXPR6621Q1ZG",
+      "address": "S.F. No. 625/2, Eachanari chettipalayam Road, Eachanari – Post, Coimbatore – 641 021."
+    },
+    {
+      "customer_name": "M/s. DEEPAM ENGINEERS",
+      "gstn": "33ENDPD3519R1ZS",
+      "address": "49, PILLAYAR KOIL STREET, ANDALKUPPAM, KUNDRATHUR, CHENNAI - 600069."
+    },
+    {
+      "customer_name": "M/s. GOYAL ISPAT LIMITED",
+      "gstn": "33AAACG2191B1Z9",
+      "address": "24, Padalam Sugar Mill Road, Palayanur, Kanchipuram Dist 603308."
+    },
+    {
+      "customer_name": "M/s. Ashok Rai Boards",
+      "gstn": "33AAQFA5510M1ZD",
+      "address": "Post: Poochiathipet, Village, Karani, Via RedHills, Chennai - 600052."
+    },
+    {
+      "customer_name": "M/s. Vamshadhara paper mills ltd",
+      "gstn": "33AAACV7330B1ZV",
+      "address": "Karambedu village, Poovalambedu post Gummidipoondi TK Tiruvallur Dist, Tamilnadu 601212"
+    },
+    {
+      "customer_name": "M/s. M/s.Unik Indus Enterprise",
+      "gstn": "33AACFU2573L1Z0",
+      "address": "29/1, Sembudoss Street, 2 nd floor Shop no15, Parrys, Chennai - 600 001."
+    },
+    {
+      "customer_name": "M/s. Surya Oils & Extractions Private Limited",
+      "gstn": "33AABCS5017R1Z4",
+      "address": "Village Thatchur, Salem Main Road, District Villupuram, Kallakkurichi, Tamil Nadu, Pin Code - 606202, India."
+    },
+    {
+      "customer_name": "M/s. VISHNU BARIUM PRIVATE LIMITED",
+      "gstn": "37AAGCS0968L1ZT",
+      "address": "Survey No: 27/1A, Urandur Village,, Srikalahasthi (Mandal)Chittor (District). Andhrapradesh 517 641."
+    },
+    {
+      "customer_name": "M/s. PUSHPIT STEELS PRIVATE LIMITED",
+      "gstn": "37AABCP0515H1ZR",
+      "address": "No: 303A/B, Industrial Estate Exp, Merlapaka Village, Yerpedu Mandal, Srikalahasthi, Chittor (District). Andhrapradesh 517 619."
+    },
+    {
+      "customer_name": "M/s. Poorva Prolink Private Limited",
+      "gstn": "33AAJCP2997D1Z9",
+      "address": "93, Lakshmi Towers, Arcot Road, Kodambakkam, Chennai - 24."
+    },
+    {
+      "customer_name": "M/s. SRI BALAJI ALLOYS",
+      "gstn": "33AAFPB9523L1ZR",
+      "address": "170/2, Munuswamy Street, Vanagaram Road, Athipet, Chennai - 600 058."
+    },
+    {
+      "customer_name": "M/s. ICON METAL MANUFACTURERS",
+      "gstn": "33AAFFI2177P1Z1",
+      "address": "Plot No. 73, 74 & 75, SIPCOT Industrial complex, EPIP, Gummidipoondi - 601 201."
+    },
+    {
+      "customer_name": "M/s. Metrolla Steels Limited",
+      "gstn": "32AABCM5996K1Z2",
+      "address": "Factory: Paipra, Pezhakkappilly P.O, Muvattupuzha - 686674, Ernakulam District, Kerala."
+    },
+    {
+      "customer_name": "M/s. Jai Hind Wire Rod Mills Private Limited",
+      "gstn": "33AAACJ7558B1ZT",
+      "address": "12/1-A, Nattamangalam Road, Amanikondalampatti, Salem - 636010 ,Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. DHARANI SUGARS AND CHEMICALS LIMITED",
+      "gstn": "33AAACD1281F1Z7",
+      "address": "KARAIPOONDI - 606803, POLUR, TIRUVANNAMALAI DIST, TAMIL NADU."
+    },
+    {
+      "customer_name": "M/s. Naveen Traderrs",
+      "gstn": "33AKLPN8375Q1Z6",
+      "address": "300/6, ECR Road, Kottakuppam Post, Vannur Taluk, Villupuram District, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. INTERPACK INDUSTRIES",
+      "gstn": "33AAFFI0890K2ZA",
+      "address": "206-B, Jaganathapuram Village, Ponneri Taluk, Near Janappanchatram Junction, Chennai - 600067."
+    },
+    {
+      "customer_name": "M/s. CKPL Exports",
+      "gstn": "33ARJPS6468G1ZC",
+      "address": "CK Tower, No. 9, 6th Street, Gopalapuram, Chennai - 600086."
+    },
+    {
+      "customer_name": "M/s. Sun Extrusions",
+      "gstn": "33AAJPM8850D1ZP",
+      "address": "D-10/S2, Sipcot Industrial Complex, Phase - 1, Gummidipoondi, Tamil Nadu - 601201."
+    },
+    {
+      "customer_name": "M/s. Rangoon Marketing",
+      "gstn": "33AAKFR0686H1Z2",
+      "address": "307, Thambu Chetty Street, Near Royapuram Bridge, Chennai - 600 001."
+    },
+    {
+      "customer_name": "M/s. M/s.Fine Tech Engineering",
+      "gstn": "33AAAFF1471C1Z5",
+      "address": " 99/11, S I D C O Industrial Estate, Thirumudivakkam, Chromepet, Chennai, Tamil Nadu - 600044, India"
+    },
+    {
+      "customer_name": "M/s. Sri Bhavani Furnace Liners",
+      "gstn": "33BARPD9028F1ZP",
+      "address": "# 58, Gandhi Street, P.T.M.S., Chennai - 600 055."
+    },
+    {
+      "customer_name": "M/s. GOYAL ISPAT LIMITED",
+      "gstn": "33AAACG2191B1Z9",
+      "address": "24, PADALAM SUGAR MILL ROAD, PALAYANUR, KANHIPURAM DIST - 603308"
+    },
+    {
+      "customer_name": "M/s. SHARDLOW INDIA LIMITED",
+      "gstn": "33AAACS5048P1Z2",
+      "address": "HUZUR GARDENS, SEMBIUM, CHENNAI - 600 011."
+    },
+    {
+      "customer_name": "M/s. GOYAL ISPAT LIMITED",
+      "gstn": "33AAACG2191B1Z9",
+      "address": "24, PADALAM SUGAR MILL ROAD, PALAYANUR, KANCHIPURAM DIST - 603308."
+    },
+    {
+      "customer_name": "M/s. Best Cast It Limited",
+      "gstn": "33AAACB1423H1ZD",
+      "address": "Plot No. 58, [SP], SF No. 184, 185 (Part), Sector II, 3rd Cross Road, Ambattur I.E. South, Chennai - 600 058, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. ALOMEX PROFILES PRIVATE LIMITED",
+      "gstn": "33AAFCA0821R1ZO",
+      "address": "G 34 & G 35, SIPCOT INDUSTRIAL PARK, SRIPERUMBUDUR - 602105, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. WELMECH ENGINEERING COMPANY PRIVATE LIMITED",
+      "gstn": "33AAACW0320L1ZP",
+      "address": "Developed Plot No. 11A/1, Sidco Industrial Estate, Ambattur, Chennai - 600098."
+    },
+    {
+      "customer_name": "M/s. Adharsh Engineering",
+      "gstn": "33BXFPR7179J1ZV",
+      "address": "No. 1/9, Shanthi Theater Complex, Chavadi Street, Korattur, Chennai - 600 080."
+    },
+    {
+      "customer_name": "M/s. Thiruvapathi Engineering Works,",
+      "gstn": "33AFXPR6621Q1ZG",
+      "address": "S.F. No. 625/2, Eachanari chettipalayam Road, Eachanari – Post, Coimbatore – 641 021. "
+    },
+    {
+      "customer_name": "M/s. Thermal Systems and Engineering",
+      "gstn": "33AAGFT0201L1ZK",
+      "address": "Plot no 150 6th street, Sidco Industrial Estate, Pattaravakkam, Chennai - 600098"
+    },
+    {
+      "customer_name": "M/s. RD Industries",
+      "gstn": "33AASFR1939B1Z8",
+      "address": "47/208, Sri Ganesh Street, Nageswara Rao Road, Athipet, Chennai - 58."
+    },
+    {
+      "customer_name": "M/s. VPR Enterprises",
+      "gstn": "33AAPFV9379N1Z0",
+      "address": "# 24/32, 2nd Floor, First Street, Lakshmi Nagar, Velachery, Chennai - 600 042."
+    },
+    {
+      "customer_name": "M/s. Venkatachalapathi Paper Mill Private Limited",
+      "gstn": "33AABCS0255K1ZK",
+      "address": "206 B, Jagannathapuram Village, Ponneri Taluk, Thiruvallur, Chennai - 67."
+    },
+    {
+      "customer_name": "M/s. Avanti Metals Private Limited",
+      "gstn": "33AACCS9725P1ZS",
+      "address": "No. 7/1 & 4/3, Komal Road, Maruthur Village, Therizhandur, Mayiladuthurai, Nagapattinam - 609808, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Sagar Cements Limited.",
+      "gstn": "36AACCS8680H1ZZ",
+      "address": "Mattampally (Village & Mandal), Via Huzurnagar, Suryapet District, Telangana - 508 204."
+    },
+    {
+      "customer_name": "M/s. MHT ENGINEERING",
+      "gstn": "33ALRPT3636R1Z4",
+      "address": "17/12, KARPAGA VINAYAGAR KOIL STREET, EKKATTUTHANGAL, CHENNAI - 600032."
+    },
+    {
+      "customer_name": "M/s. Vamshadhara Paper Mills Limited",
+      "gstn": "33AAACV7330B1ZV",
+      "address": "Karambedu Village, Poovalambedu Post, Gummidipoondi Taluk, Tiruvallur District, Tamil Nadu - 601 212."
+    },
+    {
+      "customer_name": "M/s. CMR TOYOTSU ALUMINIUM INDIA PRIVATE LIMITED,Unit II",
+      "gstn": "33AAECC9550A1Z2",
+      "address": "Plot: G - 108/2, Sipcot Industrial Park, Vallam Vadagal, Sriperumpudur - 602 105, Kanchipuram District, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Noble Tech Industries Private Limited",
+      "gstn": "33AABCV9111H1ZJ",
+      "address": "14/2 A2, Melpakkam Village, Uthiramerur Taluk, Kaliampoondi (Via), Kancheepuram Dist, Pin Code - 603 402, India."
+    },
+    {
+      "customer_name": "M/s. KAMACHI INDUSTRIES LIMITED",
+      "gstn": "33AACCK6172C2ZV",
+      "address": "Survey No. 86, 115-119, 123, Pathapalayam Village, S.R. Kandigai Post, Gummidipoondi - 601 201, Thiruvallur Dist, Tamil Nadu."
+    },
+    {
+      "customer_name": "M/s. Suntrust Aluminium Private Limited",
+      "gstn": "33AAQCS7236K1ZU",
+      "address": "K32 A, Sipcot Industrial Complex, Opposite to M/s. SKI Carbon, Gummidipoondi, Tamil Nadu - 601201. "
+    },
+    {
+      "customer_name": "M/s. JKM Ferrotech Limited,",
+      "gstn": "33AAKCS7852D1Z9",
+      "address": "K 4, Phase II, Sipcot Industrial Compex, Gummidipoondi, Thiruvallur Dist, Pin Code - 601201."
+    },
+    {
+      "customer_name": "M/s. TALCO ALUMINIUM COMPANY,",
+      "gstn": "33AAEFT9820F1Z8",
+      "address": "F-60 SIPCOT INDUSTRIAL COMPLEX GUMMUDIPOONDI - 60120"
+    },
+    {
+      "customer_name": "M/s. Deccan Extrusions Private limited,",
+      "gstn": "34AADCD0292K3ZO",
+      "address": "R.S. No 101/4, Vazhudavur Road, Thuthipet Village, Pondicherry - 605 502, India."
+    },
+    {
+      "customer_name": "M/s. Best Engineers",
+      "gstn": "33BAHPS8857D1ZD",
+      "address": "New No. 8, Old No. 70, New colony, Porur, Chennai - 600 116."
+    },
+    {
+      "customer_name": "M/s. Vishnupria Paper Mill Private Limited",
+      "gstn": "33AAACV3007D1Z1",
+      "address": "Jagannathapuram Village, Ponneri Taluk, Thiruvallur, Chennai - 600 067."
+    },
+    {
+      "customer_name": "M/s. MARUTHI INDUSTRIAL SERVICES",
+      "gstn": "33AYZPT8900F1ZU",
+      "address": "1, Pillaiyar koil Street, Thirumanam village, Chithukadu, Chennai - 600072."
+    },
+    {
+      "customer_name": "M/s. ASHOK LEYLAND LIMITED [FOUNDRY DIVISION]",
+      "gstn": "33AAACA4651L1ZT",
+      "address": "Plot No.: K-2, Sipcot Industrial Estate, Arneri village, Sriperumbudur-- 602 105, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Arvind Ceramic Industries Limited",
+      "gstn": "33AAFCA9546D1ZT",
+      "address": "Rettamangalam Village, Uthiramerur Taluk, Kanchipuram Disctrict - 603107, Tamil Nadu, India. "
+    },
+    {
+      "customer_name": "M/s. Totale Global Private Limited,",
+      "gstn": "33AAFCT0174N1Z7",
+      "address": "71-C, New Avadi Road, Kilpauk, Chennai - 600 010, Tamil Nadu, India. "
+    },
+    {
+      "customer_name": "M/s. Sri Andal Paper Mills Unit - 2 Private Limited,",
+      "gstn": "33AANCS4626E1ZE",
+      "address": "SF No 544/1, Sathyamangalam, Puthukkadu, Kokkaranakondi Pirivu, Erode, Tamil Nadu, 638401 India."
+    },
+    {
+      "customer_name": "M/s. Bannari Amman Sugars Limited [Unit -2]",
+      "gstn": "29AAACB8933G2ZI",
+      "address": "Factory - Alaganchi, Nanjangud - 571 301, Mysore District, Karnataka, India."
+    },
+    {
+      "customer_name": "M/s. Pashupati Metallics",
+      "gstn": "33AALFP6133E2ZE",
+      "address": "S F No. 14 & 15, Periyapuliyur Village, Gummidipoondi - 601201, Tamil Nadu"
+    },
+    {
+      "customer_name": "M/s. Narayan Industries",
+      "gstn": "33AACFN6678F1Z6",
+      "address": "No.: 37-A, Kamarajar Nagar, Ernavoor, Chennai - 600057."
+    },
+    {
+      "customer_name": "M/s. Naveen Traderrs",
+      "gstn": "33AKLPN8375Q1Z6",
+      "address": "No. 300/6, ECR Road, Kottapakkam Post, Vanur Taluk, Villupuram Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. P S Enterprises",
+      "gstn": "33DLIPS5138H1ZV",
+      "address": "No. 95/20A, KCP Road, Thiruvottriyur, Chennai - 600 019."
+    },
+    {
+      "customer_name": "M/s. TamilNadu Steel Tubes Limited",
+      "gstn": "33AAACT2381C1ZU",
+      "address": "B-10, Industrial Complex, Maraimalai Nagar – 603 209. Kancheepuram Dist. "
+    },
+    {
+      "customer_name": "M/s. Vinayaga Metal Works",
+      "gstn": "33ANQPK9984N1ZV",
+      "address": "Shed No. 48, SIDCO Industrial Estate, Kakkalur, Thiruvallur - 602003, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Hiroki Buildtech Private Limited",
+      "gstn": "33AAECH3094G1ZQ",
+      "address": "No. 8A, Kamarajar 9th Street, Tass Industrial Estate SIDCO, Chennai 600 098, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. JKM Ferrotech Limited",
+      "gstn": "33AAKCS7852D1Z9",
+      "address": "K 4, Phase II, Sipcot Industrial Compex, Gummidipoondi, Thiruvallur Dist, Pin Code - 601201."
+    },
+    {
+      "customer_name": "M/s. AGRA WIRE  INDUSTRIES",
+      "gstn": "33AASFA3122D1ZY",
+      "address": "69, CHITTORNATHAM VILLAGE, GUMMIDIPOONDI TALUK, THIRUVALLUR DISTRICT - 601 201, TAMIL NADU. "
+    },
+    {
+      "customer_name": "M/s. IGP ENGINEERS PRIVATE LIMITED [HU Unit]",
+      "gstn": "33AAACI0920Q1ZN",
+      "address": "198/5, Gangai Amman Koil street, Keezhur Village, Kottamedu Post, Thiruporur Taluk, Kanchipuram Dist - 603 108, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. AALCO IMPEX PRIVATE LIMITED",
+      "gstn": "33AAJCA9800G1ZU",
+      "address": "R-16, SIPCOT Industrial Complex, Gummidipoondi - 601201, Thiruvallur Dist, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. CKPL Exports",
+      "gstn": "33ARJPS6468G1ZC",
+      "address": "CK Towers, No. 9, 6th Street, Gopalapuram, Chennai - 600086, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. Asia Engineering & Fabrication",
+      "gstn": "33DIIPS5749P2ZA",
+      "address": "New No. 268, Old No. 560, MTH Road near telephone exchange Subbaiah complex,Sidco industrial estate, Chennai - 600 098."
+    },
+    {
+      "customer_name": "M/s. Venba Engineering Works",
+      "gstn": "34BUBPG2375J1ZQ",
+      "address": "80, II Cross, Perambai Road, JMJ Garden, Sulthanpet, Puducherry - 605110."
+    },
+    {
+      "customer_name": "M/s. Viswakarma Refractories Private Limited",
+      "gstn": "29AAACV6617R1ZJ",
+      "address": "Bhuwalka Landmark, No. 5, Walker Lane (on Langford Road), Richmond Town, Banglore-560 025."
+    },
+    {
+      "customer_name": "M/s. Panasonic Carbon India Company Limited",
+      "gstn": "37AAACI5679J1Z3",
+      "address": "Tada Mandal, Nellore District, Andhra Pradesh - 524401."
+    },
+    {
+      "customer_name": "M/s. Mogli Labs (India) Private Limited",
+      "gstn": "33AAJCM7312H1ZL",
+      "address": "Plot No 14 and 15, Kanniyamman Nagar, Chennai - 600060."
+    },
+    {
+      "customer_name": "M/s. The Standard Chemicals Co. Private Limited",
+      "gstn": "33AABCT0448B1ZZ",
+      "address": "# 5/11B, SIDCO Industrial Estate, Ambattur, Chennai - 600 098."
+    },
+    {
+      "customer_name": "M/s. V K FASTENERS PRIVATE LIMITED",
+      "gstn": "33AAECV9380M1ZQ",
+      "address": "# 79, Valmiki Street, Tiruvanmiyur, Chennai - 600 041, Tamil Nadu, India."
+    },
+    {
+      "customer_name": "M/s. C Gopal Naicker Son",
+      "gstn": "33AAAFC0424G1Z9",
+      "address": "1, Cochrane Basin Road, Chennai - 600 021."
+    },
+    {
+      "customer_name": "M/s. Aadi Bhagwan Terracotta",
+      "gstn": "33AXYPG6043J1Z3",
+      "address": "159, T. Kumaramangalam Main Road, Pondicherry - 607 101."
+    },
+    {
+      "customer_name": "M/s. Vadhi Steels Private Limited",
+      "gstn": "32AADCV7688P1ZG",
+      "address": "Door No: 13/180 C, Anakuzhikkara, Post – Kuttikkatoor, Calicut – 673 008, Kerala"
+    }
+  ]
+}

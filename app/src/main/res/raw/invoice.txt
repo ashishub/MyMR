@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <link rel="stylesheet" href="">
+        <style type="text/css" media="print">
+            @page {
+                size: landscape;
+                margin: 0;
+            }
+        </style>
+        <style type="text/css">
+            body {
+                /* margin: 15px; */
+                height: 800px;
+                width: 1024px;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                /* background-color: #2196F3; */
+                /* padding: 10px */
+            }
+
+            .grid-item {
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 10px;
+                /* font-size: 30px; */
+                text-align: center;
+            }
+
+            .unselectedSquare {
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                width: 10px;
+                height: 10px;
+            }
+
+            .seletedSquare {
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                background-color: black;
+                width: 10px;
+                height: 10px;
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 4px;
+                text-align: left;
+                font-size: small;
+            }
+
+            .boldedText {
+                font-weight: bold;
+            }
+
+            .items {
+                border-bottom: none;
+            }
+
+            .emptyRows {
+                padding-bottom: 190px;
+            }
+
+            li>p {
+                margin: 5px;
+                ;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div style="border-style: double;border-radius: 2px;">
+            <div class="grid-container">
+                <div class="grid-item">
+                    <H2 style="padding: 0px; margin: 0px;">M/s. MADRAS REFRACTORY</H2>
+                    <small>6, Kattabommman 3rd St, Near Pudhu Nagar Vinayagar Temple, Redhills, Chennai – 600052, Tamil Nadu,
+                        India.</small>
+                    <br />
+                    <small> GST: 33AAFPP1669P1Z6 Mobile: <b> 98428 24484, 73737 08188.</b> Email:- <b>madrasrefractory@gmail.com</b></small>
+                </div>
+                <div class="grid-item" style="padding: 0px;">
+                    <p style="margin: 10px 5px 15px;"><span style="vertical-align: middle;">GST INVOICE</span></p>
+                    <table style="width: 100%;border-right-style: hidden; border-left-style: hidden; border-bottom-style: hidden;">
+                        <tr>
+                            <th>Invoice No:</th>
+                            <th>Date:</th>
+                        </tr>
+                        <tr>
+                            <td>${getInvoiceNbr}</td>
+                            <td>${getInvoiceDate}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="grid-item" style="padding: 5px;">
+                    <small>
+                        <ul id="typeOfInvoice" style="list-style-type:none; padding-left: 0px;text-align: left;">
+                            <li>
+                                <!-- <p><span class="seletedSquare">&nbsp;&nbsp;&nbsp;&nbsp;</span> &nbsp;<small>ORIGINAL for
+                                        Recipient</small></p> -->
+                                <p><span class="unselectedSquare">&nbsp;&nbsp;&nbsp;&nbsp;</span> &nbsp;<small>ORIGINAL for
+                                    Recipient</small></p>
+                            </li>
+                            <li>
+                                <p><span class="unselectedSquare">&nbsp;&nbsp;&nbsp;&nbsp;</span> &nbsp;<small>DUPLICATE
+                                        for
+                                        Transporter</small></p>
+                            </li>
+                            <li>
+                                <p><span class="unselectedSquare">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                    &nbsp;<small>TRIPLICATE for
+                                        Supplier</small></p>
+                            </li>
+                        </ul>
+                    </small>
+                    <!-- <p style="text-align: center;"><span class="seletedSquare">&nbsp;&nbsp;&nbsp;&nbsp;</span> &nbsp;ORIGINAL for Recipient</p>
+                    <p style="text-align: center;"><span class="unselectedSquare">&nbsp;&nbsp;&nbsp;&nbsp;</span> &nbsp;DUPLICATE for Transporter</p>
+                    <p style="text-align: center;"><span class="unselectedSquare">&nbsp;&nbsp;&nbsp;&nbsp;</span> &nbsp;TRIPLICATE for Supplier</p> -->
+                </div>
+            </div>
+            <table style="width: 100%;">
+                <!-- <tr>
+                    <td class="boldedText">Consignee:</td>
+                    <td colspan="6">${getConsigneeName}</td>
+                    <td colspan="2" class="boldedText">Invoice No:</td>
+                    <td colspan="3">${getInvoiceNbr}</td>
+                    <td class="boldedText">Date:</td>
+                    <td>${getInvoiceDate}</td>
+                </tr> -->
+                <tr>
+                    <td rowspan="3" colspan="4"><b>Consignee:  </b><u>${getConsigneeName}</u><br/>${getAddressLine1Consignee}<br />${getAddressLine2Consignee}<br />${getAddressLine3Consignee}</td>
+                    <td class="boldedText" style="white-space: nowrap;">GST No:</td>
+                    <td colspan="2">${getGstNbrConsignee}</td>
+                    <td colspan="2" rowspan="2" class="boldedText" style="white-space: nowrap;">PO. No:</td>
+                    <td colspan="5" rowspan="2">${getPoNbr}</td>
+                    <!-- <td></td>
+                    <td></td> -->
+                </tr>
+                <tr>
+                    <td class="boldedText">State:</td>
+                    <td colspan="2">${getConsigneeState}</td>
+                    <!-- <td colspan="2" class="boldedText">PO Date:</td> -->
+                    <!-- <td colspan="3"></td>
+                    <td class="boldedText">Place of Supply:</td>
+                    <td>${getPlaceOfSupply}</td> -->
+                </tr>
+                <tr>
+                    <td class="boldedText">Code:</td>
+                    <td colspan="2">${getStateCodeConsignee}</td>
+                    <td colspan="2" class="boldedText">PO Date:</td>
+                    <td colspan="3">${getPoDate}</td>
+                    <td class="boldedText" style="white-space: nowrap;">Place of Supply:</td>
+                    <td>${getPlaceOfSupply}</td>
+
+                </tr>
+                <!-- <tr>
+                    <td class="boldedText">Delivery: </td>
+                    <td colspan="6">${getdeleiveryComp}</td>
+                </tr> -->
+                <tr>
+                    <td rowspan="3" colspan="4"><b>Delivery:  </b><u>${getDeliveryComp}</u><br/>${getAddressLine1Delivery}<br />${getAddressLine2Delivery}<br />${getAddressLine3Delivery}</td>
+                    <td class="boldedText" style="white-space: nowrap;">GST No:</td>
+                    <td colspan="2">${getGstNbrDelivery}</td>
+                    <td colspan="2" class="boldedText" style="white-space: nowrap;">Transport Mode:</td>
+                    <td colspan="3">${getTransportMode}</td>
+                    <td class="boldedText" style="white-space: nowrap;">Vehicle No:</td>
+                    <td>${getVehicleNbr}</td>
+                </tr>
+                <tr>
+                    <td class="boldedText">State:</td>
+                    <td colspan="2">${getDeliveryState}</td>
+                    <td colspan="2" class="boldedText">L.R. No:</td>
+                    <td colspan="3">${getLrNbr}</td>
+                    <td class="boldedText">L.R. Date:</td>
+                    <td>${getLrDate}</td>
+                </tr>
+                <tr>
+                    <td class="boldedText">Code:</td>
+                    <td colspan="2">${getDeliveryStateCode}</td>
+                    <td colspan="2" class="boldedText">Reverse Charge:</td>
+                    <td colspan="3">NA</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td rowspan="2" class="boldedText">S No:</td>
+                    <td rowspan="2" class="boldedText">Description</td>
+                    <td rowspan="2" class="boldedText">HSN Code</td>
+                    <td rowspan="2" class="boldedText">Unit</td>
+                    <td rowspan="2" class="boldedText">Qty</td>
+                    <td rowspan="2" class="boldedText">Rate ₹</td>
+                    <td rowspan="2" class="boldedText">Taxable Amt ₹</td>
+                    <td colspan="2" class="boldedText">CGST</td>
+                    <td colspan="2" class="boldedText">SGST</td>
+                    <td colspan="2" class="boldedText">IGST</td>
+                    <td rowspan="2" class="boldedText">Total ₹</td>
+                </tr>
+                <tr>
+                    <td class="boldedText">%</td>
+                    <td class="boldedText">Amt ₹</td>
+                    <td class="boldedText">%</td>
+                    <td class="boldedText">Amt ₹</td>
+                    <td class="boldedText">%</td>
+                    <td class="boldedText">Amt ₹</td>
+                </tr>
+                ${allLineItems}
+                <!-- <tr class="items">
+                    <td class="items">1</td>
+                    <td style="min-width: 170px;">DALCAST 160 N</td>
+                    <td>69039040</td>
+                    <td>Kgs</td>
+                    <td>1000</td>
+                    <td>25.00</td>
+                    <td>25,000.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>29,500.00</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>HA 70-30 Standard [DALMIA]</td>
+                    <td>69039030</td>
+                    <td>Nos</td>
+                    <td>150</td>
+                    <td>136.00</td>
+                    <td>20,400.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>24,072.00</td>
+                </tr>
+                <tr class="items">
+                    <td class="items">3</td>
+                    <td>DALCAST 160 N</td>
+                    <td>69039040</td>
+                    <td>Kgs</td>
+                    <td>1000</td>
+                    <td>25.00</td>
+                    <td>25,000.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>29,500.00</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>HA 70-30 Standard [DALMIA]</td>
+                    <td>69039030</td>
+                    <td>Nos</td>
+                    <td>150</td>
+                    <td>136.00</td>
+                    <td>20,400.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>24,072.00</td>
+                </tr>
+                <tr class="items">
+                    <td class="items">5</td>
+                    <td>DALCAST 160 N</td>
+                    <td>69039040</td>
+                    <td>Kgs</td>
+                    <td>1000</td>
+                    <td>25.00</td>
+                    <td>25,000.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>29,500.00</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>HA 70-30 Standard [DALMIA]</td>
+                    <td>69039030</td>
+                    <td>Nos</td>
+                    <td>150</td>
+                    <td>136.00</td>
+                    <td>20,400.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>24,072.00</td>
+                </tr>
+                <tr class="items">
+                    <td class="items">7</td>
+                    <td>DALCAST 160 N</td>
+                    <td>69039040</td>
+                    <td>Kgs</td>
+                    <td>1000</td>
+                    <td>25.00</td>
+                    <td>25,000.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>29,500.00</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>HA 70-30 Standard [DALMIA]</td>
+                    <td>69039030</td>
+                    <td>Nos</td>
+                    <td>150</td>
+                    <td>136.00</td>
+                    <td>20,400.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>24,072.00</td>
+                </tr>
+                <tr class="items">
+                    <td class="items">9</td>
+                    <td>DALCAST 160 N</td>
+                    <td>69039040</td>
+                    <td>Kgs</td>
+                    <td>1000</td>
+                    <td>25.00</td>
+                    <td>25,000.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td>9</td>
+                    <td>2,250.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>29,500.00</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>HA 70-30 Standard [DALMIA]</td>
+                    <td>69039030</td>
+                    <td>Nos</td>
+                    <td>150</td>
+                    <td>136.00</td>
+                    <td>20,400.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td>9</td>
+                    <td>1,836.00</td>
+                    <td></td>
+                    <td></td>
+                    <td>24,072.00</td>
+                </tr> -->
+
+
+
+                <!-- <tr>
+                    <td colspan="14" class="emptyRows"></td>
+                </tr> -->
+                ${emptyRows}
+                <!-- Freight -->
+                <tr>
+                    <td colspan="6" style="text-align: right;" class="boldedText">${getAddnlChargeTitle} :</td>
+                    <td>${getFreightTaxableAmt}</td>
+                    <td>${getFcgst}</td>
+                    <td>${getFcgstAmount}</td>
+                    <td>${getFsgst}</td>
+                    <td>${getFsgstAmount}</td>
+                    <td>${getFigst}</td>
+                    <td>${getFigstAmount}</td>
+                    <td>${getFreightTotalAmount}</td>
+                </tr>
+                <!-- Total -->
+                <tr style="border-style: double solid double;">
+                    <td colspan="6" style="text-align: right;" class="boldedText">Total :</td>
+                    <td>${getTotalTaxableAmt}</td>
+                    <td></td>
+                    <td>${getCgstTotal}</td>
+                    <td></td>
+                    <td>${getSgstTotal}</td>
+                    <td></td>
+                    <td>${getIgstTotal}</td>
+                    <td>${getInvoiceTotal}</td>
+                </tr>
+                <!-- <tr>
+                    <td colspan="6" style="text-align: right;" class="boldedText">Freight :</td>
+                    <td>${getFreightTaxableAmt}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+                <!-- Total -->
+                <!-- <tr>
+                    <td colspan="6" style="text-align: right;" class="boldedText">Total :</td>
+                    <td>${getTotalTaxableAmt}</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr> -->
+                <tr>
+                    <td colspan="6" rowspan="3">Bank details : <b>"Madras Refractory"</b>,
+                        <br />
+                        Current A/c No: 228 502 000 000 235,
+                        <br />
+                        Indian Overseas Bank,
+                        <br />
+                        Redhills-Puzhal Branch,
+                        IFSC - IOBA 000 2285.</td>
+                    <td rowspan="3" colspan="6"><b>Invoice Total in Words:</b> ${getAmountInWords}</td>
+                    <td rowspan="3" style="text-align: right;" class="boldedText">Taxable Amt ₹:<br/>Total GST ₹:<br/>Invoice Total ₹:</td>
+                    <td rowspan="3">${getTotalTaxableAmt}<br/>${getTotalGst}<br/>${getInvoiceTotal}</td>
+                </tr>
+                <tr>
+                    <!-- <td colspan="7">Total GST ₹</td> -->
+
+                </tr>
+                <tr>
+                    <!-- <td colspan="7">Invoice Total ₹</td> -->
+
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <b>Terms and Conditions :</b>
+                        <ol>
+                            <li>Goods Once Sold Cannot be taken Back.</li>
+                            <li>Payment to be made within - days of supply.</li>
+                            <li>Rates: Ex Works</li>
+                            <li>All disputes subject to Chennai jurisdiction.</li>
+                            <li>Our responsibility ceases on delivery of materials to the transporter.</li>
+                        </ol>
+                    </td>
+                    <td colspan="8" style="text-align: center;">
+                        Certified that the particulars given above are true and correct
+                        <br />
+                        <h4 style="margin: 0px 0px 50px;">For M/s. Madras Refractory</h4>
+                        Authorised Signatory
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+
+    </html>
