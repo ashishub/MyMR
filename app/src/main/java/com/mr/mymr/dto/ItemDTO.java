@@ -6,9 +6,14 @@ import java.io.Serializable;
 
 import lombok.Data;
 
+import static com.mr.mymr.utils.MrUtils.returnGSTRateInString;
+
 @Data
 public class ItemDTO implements Serializable {
-    Integer sNo;
+
+    private static final long serialVersionUID = 3039591949217617L;
+
+    String sNo;
     String itemDesc;
     String uom;
     String hsnCode;
@@ -23,7 +28,7 @@ public class ItemDTO implements Serializable {
     boolean interState;
 
     public String getCGstPerctage() {
-        return interState || TextUtils.isEmpty(gstPerctage) ? "" : String.valueOf((Double.parseDouble(gstPerctage) / 2));
+        return interState || TextUtils.isEmpty(gstPerctage) ? "" : returnGSTRateInString((Double.parseDouble(gstPerctage) / 2));
     }
 
     public String getSGstPerctage() {
@@ -31,6 +36,6 @@ public class ItemDTO implements Serializable {
     }
 
     public String getIGstPerctage() {
-        return !interState || TextUtils.isEmpty(gstPerctage) ? "" : gstPerctage;
+        return !interState || TextUtils.isEmpty(gstPerctage) ? "" : returnGSTRateInString(Double.parseDouble(gstPerctage));
     }
 }

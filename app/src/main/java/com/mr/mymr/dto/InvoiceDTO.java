@@ -1,5 +1,8 @@
 package com.mr.mymr.dto;
 
+import android.text.TextUtils;
+
+import com.mr.mymr.utils.AmountConverter;
 import com.mr.mymr.utils.MrConstants;
 
 import java.io.Serializable;
@@ -9,6 +12,9 @@ import lombok.Data;
 
 @Data
 public class InvoiceDTO implements Serializable {
+
+    private static final long serialVersionUID = 443039591949217617L;
+
     private String invoiceNbr;
     private String invoiceDate;
     private String consigneeName;
@@ -32,7 +38,6 @@ public class InvoiceDTO implements Serializable {
     private String lrNbr;
     private String lrDate;
     private String deliveryStateCode;
-    private String amountInWords;
     private String totalTaxableAmt;
     private String totalGst;
     private String invoiceTotal;
@@ -51,6 +56,7 @@ public class InvoiceDTO implements Serializable {
     private String cgstTotal;
     private String sgstTotal;
     private String igstTotal;
+    private String saveTimestamp;
 
     public void setTransportMode(String transportMode) {
         if (transportMode == null || transportMode.equals("")){
@@ -58,5 +64,13 @@ public class InvoiceDTO implements Serializable {
         } else {
             this.transportMode = transportMode;
         }
+    }
+
+    public String getVehicleNbr() {
+        return TextUtils.isEmpty(vehicleNbr) ? null : vehicleNbr.toUpperCase();
+    }
+
+    public String getAmountInWords() {
+        return TextUtils.isEmpty(invoiceTotal) ? invoiceTotal : AmountConverter.numberToWord(invoiceTotal);
     }
 }

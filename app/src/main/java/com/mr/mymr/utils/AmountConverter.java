@@ -1,5 +1,7 @@
 package com.mr.mymr.utils;
 
+import java.text.DecimalFormat;
+
 public class AmountConverter {
 
 //    public static void main (String args[])
@@ -30,6 +32,8 @@ public class AmountConverter {
         int split[]={0,2, 3, 5, 7,9};
         String[] temp=new String[split.length];
         boolean addzero=true;
+        DecimalFormat decimalFormat = new DecimalFormat("0");
+        number = decimalFormat.format(Double.parseDouble(number));
         int len1=number.length();
         if (len1>split[split.length-1]) { System.out.println("Error. Maximum Allowed digits "+ split[split.length-1]);
             System.exit(0);
@@ -56,7 +60,7 @@ public class AmountConverter {
             }
             else word=twodigitword ;
         }
-        return (word != null ? word.replaceAll("  ", " ") : word);
+        return "Rupees " +(word != null ? word.replaceAll("  ", " ") : word) + " Only.";
     }
 
     private static String convertOnesTwos(String t)

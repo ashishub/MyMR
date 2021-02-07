@@ -26,6 +26,8 @@ public class ItemDropDownAdapter extends ArrayAdapter<ItemDTO> {
     private List<ItemDTO> allItemsDTOS;
     private ListFilter listFilter = new ListFilter();
 
+    private static final String TAG = "ItemDropDownAdapter";
+
     public ItemDropDownAdapter(@NonNull Context context, int resource, @NonNull List<ItemDTO> items) {
         super(context, resource, items);
         this.itemsDTOS = items;
@@ -41,8 +43,7 @@ public class ItemDropDownAdapter extends ArrayAdapter<ItemDTO> {
     @Nullable
     @Override
     public ItemDTO getItem(int position) {
-        Log.d("ItemAdapter",
-                itemsDTOS.get(position).toString());
+//        Log.d(TAG, itemsDTOS.get(position).toString());
         return itemsDTOS.get(position);
     }
 

@@ -43,7 +43,7 @@ public class ConsigneeAdapter extends ArrayAdapter<CustomerDTO> {
     @Nullable
     @Override
     public CustomerDTO getItem(int position) {
-        Log.d(TAG, customerDTOS.get(position).toString());
+//        Log.d(TAG, customerDTOS.get(position).toString());
         return customerDTOS.get(position);
     }
 

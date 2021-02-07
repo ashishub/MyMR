@@ -57,6 +57,14 @@
                 font-size: small;
             }
 
+            .amountRightAlign {
+                text-align: right;
+            }
+
+            .itemMiddleAlign {
+                text-align: center;
+            }
+
             .boldedText {
                 font-weight: bold;
             }
@@ -191,25 +199,25 @@
                 </tr>
 
                 <tr>
-                    <td rowspan="2" class="boldedText">S No:</td>
-                    <td rowspan="2" class="boldedText">Description</td>
-                    <td rowspan="2" class="boldedText">HSN Code</td>
-                    <td rowspan="2" class="boldedText">Unit</td>
-                    <td rowspan="2" class="boldedText">Qty</td>
-                    <td rowspan="2" class="boldedText">Rate ₹</td>
-                    <td rowspan="2" class="boldedText">Taxable Amt ₹</td>
-                    <td colspan="2" class="boldedText">CGST</td>
-                    <td colspan="2" class="boldedText">SGST</td>
-                    <td colspan="2" class="boldedText">IGST</td>
-                    <td rowspan="2" class="boldedText">Total ₹</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign" >S No:</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign">Description</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign">HSN Code</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign">Unit</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign">Qty</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign" style="white-space: nowrap;">Rate ₹</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign">Taxable Amt ₹</td>
+                    <td colspan="2" class="boldedText itemMiddleAlign">CGST</td>
+                    <td colspan="2" class="boldedText itemMiddleAlign">SGST</td>
+                    <td colspan="2" class="boldedText itemMiddleAlign">IGST</td>
+                    <td rowspan="2" class="boldedText itemMiddleAlign">Total ₹</td>
                 </tr>
                 <tr>
                     <td class="boldedText">%</td>
-                    <td class="boldedText">Amt ₹</td>
+                    <td class="boldedText" style="white-space: nowrap;">Amt ₹</td>
                     <td class="boldedText">%</td>
-                    <td class="boldedText">Amt ₹</td>
+                    <td class="boldedText" style="white-space: nowrap;">Amt ₹</td>
                     <td class="boldedText">%</td>
-                    <td class="boldedText">Amt ₹</td>
+                    <td class="boldedText" style="white-space: nowrap;">Amt ₹</td>
                 </tr>
                 ${allLineItems}
                 <!-- <tr class="items">
@@ -217,16 +225,16 @@
                     <td style="min-width: 170px;">DALCAST 160 N</td>
                     <td>69039040</td>
                     <td>Kgs</td>
-                    <td>1000</td>
-                    <td>25.00</td>
-                    <td>25,000.00</td>
+                    <td class="itemMiddleAlign">1000</td>
+                    <td class="amountRightAlign">25.00</td>
+                    <td class="amountRightAlign">25,000.00</td>
                     <td>9</td>
-                    <td>2,250.00</td>
+                    <td class="amountRightAlign">2,250.00</td>
                     <td>9</td>
-                    <td>2,250.00</td>
+                    <td class="amountRightAlign">2,250.00</td>
                     <td></td>
-                    <td></td>
-                    <td>29,500.00</td>
+                    <td class="amountRightAlign"></td>
+                    <td class="amountRightAlign">29,500.00</td>
                 </tr>
                 <tr>
                     <td>2</td>
@@ -380,28 +388,29 @@
                 </tr> -->
                 ${emptyRows}
                 <!-- Freight -->
-                <tr>
+            <tr style="display: ${DISPLAY_STYLE};">
+                <!-- <tr> -->
                     <td colspan="6" style="text-align: right;" class="boldedText">${getAddnlChargeTitle} :</td>
-                    <td>${getFreightTaxableAmt}</td>
-                    <td>${getFcgst}</td>
-                    <td>${getFcgstAmount}</td>
-                    <td>${getFsgst}</td>
-                    <td>${getFsgstAmount}</td>
-                    <td>${getFigst}</td>
-                    <td>${getFigstAmount}</td>
-                    <td>${getFreightTotalAmount}</td>
+                    <td class="amountRightAlign">${getFreightTaxableAmt}</td>
+                    <td class="itemMiddleAlign">${getFcgst}</td>
+                    <td class="amountRightAlign">${getFcgstAmount}</td>
+                    <td class="itemMiddleAlign">${getFsgst}</td>
+                    <td class="amountRightAlign">${getFsgstAmount}</td>
+                    <td class="itemMiddleAlign">${getFigst}</td>
+                    <td class="amountRightAlign">${getFigstAmount}</td>
+                    <td class="amountRightAlign">${getFreightTotalAmount}</td>
                 </tr>
                 <!-- Total -->
-                <tr style="border-style: double solid double;">
+                <tr>
                     <td colspan="6" style="text-align: right;" class="boldedText">Total :</td>
-                    <td>${getTotalTaxableAmt}</td>
+                    <td class="amountRightAlign">${getTotalTaxableAmt}</td>
                     <td></td>
-                    <td>${getCgstTotal}</td>
+                    <td class="amountRightAlign">${getCgstTotal}</td>
                     <td></td>
-                    <td>${getSgstTotal}</td>
+                    <td class="amountRightAlign">${getSgstTotal}</td>
                     <td></td>
-                    <td>${getIgstTotal}</td>
-                    <td>${getInvoiceTotal}</td>
+                    <td class="amountRightAlign">${getIgstTotal}</td>
+                    <td class="amountRightAlign">${getInvoiceTotal}</td>
                 </tr>
                 <!-- <tr>
                     <td colspan="6" style="text-align: right;" class="boldedText">Freight :</td>
@@ -429,15 +438,13 @@
                 <tr>
                     <td colspan="6" rowspan="3">Bank details : <b>"Madras Refractory"</b>,
                         <br />
-                        Current A/c No: 228 502 000 000 235,
+                        Current A/c No: 228 502 000 000 235, Indian Overseas Bank,
                         <br />
-                        Indian Overseas Bank,
-                        <br />
-                        Redhills-Puzhal Branch,
-                        IFSC - IOBA 000 2285.</td>
+                        Redhills-Puzhal Branch, IFSC - IOBA 000 2285.
+                    </td>
                     <td rowspan="3" colspan="6"><b>Invoice Total in Words:</b> ${getAmountInWords}</td>
                     <td rowspan="3" style="text-align: right;" class="boldedText">Taxable Amt ₹:<br/>Total GST ₹:<br/>Invoice Total ₹:</td>
-                    <td rowspan="3">${getTotalTaxableAmt}<br/>${getTotalGst}<br/>${getInvoiceTotal}</td>
+                    <td rowspan="3" class="amountRightAlign">${getTotalTaxableAmt}<br/>${getTotalGst}<br/>${getInvoiceTotal}</td>
                 </tr>
                 <tr>
                     <!-- <td colspan="7">Total GST ₹</td> -->
@@ -450,7 +457,7 @@
                 <tr>
                     <td colspan="6">
                         <b>Terms and Conditions :</b>
-                        <ol>
+                        <ol style="margin: 2px;">
                             <li>Goods Once Sold Cannot be taken Back.</li>
                             <li>Payment to be made within - days of supply.</li>
                             <li>Rates: Ex Works</li>

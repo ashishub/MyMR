@@ -11,9 +11,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.Arrays;
 
 public class MrUtils {
+
+    private static String TAG = "MrUtils";
 
     private static String ALPHA_NUMBERIC_REGEX = "[A-Za-z0-9]+";
     private static String ALPHA_NUMBERIC_SPACE_REGEX = "[A-Za-z0-9\\s]+";
@@ -61,19 +66,22 @@ public class MrUtils {
     }
 
     public static String returnString(String text) {
-        return text == null ? "" : text;
+        return TextUtils.isEmpty(text) ? "" : text;
     }
 
-    public static String returnStringForNumbersAndText(String text) {
-        try {
-            if (Double.parseDouble(text) == 0d) {
-                return "";
-            }
-        } catch (NumberFormatException ne) {
-            // not a number field
-            // ignore the error
-        }
-        return TextUtils.isEmpty(text) ? "" : text;
+    public static String returnStringForDouble(Double value) {
+        return value == null || value == 0d ? "" : round(value, 2);
+    }
+    public static String returnStringForDouble(Double value, int places) {
+        return value == null || value == 0d ? "" : round(value, places);
+    }
+
+    public static String returnGSTRateInString(Double gstRate) {
+        String returnValue = null;
+        DecimalFormat decimalFormat = new DecimalFormat("0.#");
+        returnValue = gstRate == null || gstRate == 0d ? "" : decimalFormat.format(gstRate);
+        Log.d(TAG, "GST rate conversion from : "+ gstRate + " To : "+returnValue);
+        return returnValue;
     }
 
     public static String readResource(Context context, int id) throws IOException {
@@ -114,5 +122,18 @@ public class MrUtils {
             e.printStackTrace();
         }
         return customersDTO;
+    }
+
+    public static String round(double value) {
+        return round(value, 2);
+    }
+
+    private static String round(double value, int places) {
+        if (places < 0) throw new IllegalArgumentException();
+
+        BigDecimal bd = BigDecimal.valueOf(value);
+        bd = bd.setScale(places, RoundingMode.HALF_UP);
+        DecimalFormat decimalFormat = new DecimalFormat("0.00");
+        return decimalFormat.format(bd.doubleValue());
     }
 }

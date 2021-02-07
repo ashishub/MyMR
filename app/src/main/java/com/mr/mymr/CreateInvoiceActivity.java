@@ -52,6 +52,8 @@ import static com.mr.mymr.utils.MrUtils.isValidUOM;
 import static com.mr.mymr.utils.MrUtils.isValidVehicleNumber;
 import static com.mr.mymr.utils.MrUtils.loadCustomers;
 import static com.mr.mymr.utils.MrUtils.loadItems;
+import static com.mr.mymr.utils.MrUtils.returnGSTRateInString;
+import static com.mr.mymr.utils.MrUtils.returnStringForDouble;
 
 public class CreateInvoiceActivity extends AppCompatActivity {
 
@@ -118,9 +120,21 @@ public class CreateInvoiceActivity extends AppCompatActivity {
 
     };
 
+    private void initializeFormFields() {
+
+        // Set default Invoice Date
+        String myFormat = "dd/MM/yyyy"; //In which you need put here
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+        invoiceDateTxtEditText.setText(sdf.format(invoiceDateCalendar.getTime()));
+
+        //Load state dropdown
+        loadStateDropdown();
+    }
+
     private void initFirestore() {
         // TODO(developer): Implement
         mFirestore = FirebaseFirestore.getInstance();
+        Log.i("CreateInvoiceActivity", "initFirestore is triggered");
     }
 
 
@@ -272,11 +286,12 @@ public class CreateInvoiceActivity extends AppCompatActivity {
 
                     // start setting other values and calculate totals
                     itemDTO = new ItemDTO();
-                    itemDTO.setSNo(Integer.valueOf(i + 1));
+                    itemDTO.setSNo(Integer.toString(i + 1));
                     itemDTO.setItemDesc(itemNameAutoComplete.getText().toString());
                     itemDTO.setUom(uomAutoComplete.getText().toString());
                     itemDTO.setHsnCode(hsnNumber.getText().toString());
                     gstRate = Double.parseDouble(txtVwGstRate.getText().toString().replace("%", ""));
+                    itemDTO.setGstPerctage(returnGSTRateInString(gstRate));
                     itemDTO.setInterState(!isTamilNadu);
                     itemDTO.setRate(Double.parseDouble(txtUnitPrice.getText().toString()));
                     itemDTO.setQuantity(txtQuantity.getText().toString());
@@ -303,16 +318,16 @@ public class CreateInvoiceActivity extends AppCompatActivity {
                     chargeTotal = Double.parseDouble(txtFreightAmt.getText().toString());
                     gstRate = Double.parseDouble(freightGstAutoComplete.getText().toString());
                     if (isTamilNadu) {
-                        chargeSgstTotal = Double.parseDouble(invoiceDto.getFreightTaxableAmt())* ((gstRate / 2) / 100);
-                        chargeCgstTotal = Double.parseDouble(invoiceDto.getFreightTaxableAmt())* ((gstRate / 2) / 100);
-                        invoiceDto.setFcgst(String.valueOf(Double.valueOf(gstRate / 2)));
-                        invoiceDto.setFsgst(String.valueOf(Double.valueOf(gstRate / 2)));
-                        invoiceDto.setFcgstAmount(String.valueOf(chargeCgstTotal));
-                        invoiceDto.setFsgstAmount(String.valueOf(chargeSgstTotal));
+                        chargeSgstTotal = chargeTotal * ((gstRate / 2) / 100);
+                        chargeCgstTotal = chargeTotal * ((gstRate / 2) / 100);
+                        invoiceDto.setFcgst(returnGSTRateInString(Double.valueOf(gstRate / 2)));
+                        invoiceDto.setFsgst(returnGSTRateInString(Double.valueOf(gstRate / 2)));
+                        invoiceDto.setFcgstAmount(returnStringForDouble(chargeCgstTotal));
+                        invoiceDto.setFsgstAmount(returnStringForDouble(chargeSgstTotal));
                     } else {
-                        chargeIgstTotal = Double.parseDouble(invoiceDto.getFreightTaxableAmt())* (gstRate / 100);
-                        invoiceDto.setFigst(String.valueOf(gstRate));
-                        invoiceDto.setFigstAmount(String.valueOf(chargeIgstTotal));
+                        chargeIgstTotal = chargeTotal * (gstRate / 100);
+                        invoiceDto.setFigst(returnGSTRateInString(gstRate));
+                        invoiceDto.setFigstAmount(returnStringForDouble(chargeIgstTotal));
                     }
                     totalTaxableChargeAmount = chargeTotal + chargeSgstTotal + chargeCgstTotal + chargeIgstTotal;
 
@@ -323,16 +338,16 @@ public class CreateInvoiceActivity extends AppCompatActivity {
                     igstTotal += chargeIgstTotal;
 
                     invoiceDto.setAddnlChargeTitle(addnlChargeName);
-                    invoiceDto.setFreightTaxableAmt(String.valueOf(chargeTotal));
-                    invoiceDto.setFreightTotalAmount(String.valueOf(totalTaxableChargeAmount));
+                    invoiceDto.setFreightTaxableAmt(returnStringForDouble(chargeTotal));
+                    invoiceDto.setFreightTotalAmount(returnStringForDouble(totalTaxableChargeAmount));
                 }
                 invoiceDto.setItems(items);
-                invoiceDto.setInvoiceTotal(String.valueOf(invoiceTotal));
-                invoiceDto.setCgstTotal(String.valueOf(cgstTotal));
-                invoiceDto.setSgstTotal(String.valueOf(sgstTotal));
-                invoiceDto.setIgstTotal(String.valueOf(igstTotal));
-                invoiceDto.setTotalGst(String.valueOf(cgstTotal + sgstTotal + igstTotal));
-                invoiceDto.setTotalTaxableAmt(String.valueOf(totalTaxableAmount));
+                invoiceDto.setInvoiceTotal(returnStringForDouble(invoiceTotal, 0));
+                invoiceDto.setCgstTotal(returnStringForDouble(cgstTotal));
+                invoiceDto.setSgstTotal(returnStringForDouble(sgstTotal));
+                invoiceDto.setIgstTotal(returnStringForDouble(igstTotal));
+                invoiceDto.setTotalGst(returnStringForDouble(cgstTotal + sgstTotal + igstTotal));
+                invoiceDto.setTotalTaxableAmt(returnStringForDouble(totalTaxableAmount));
 
                 save(invoiceDto);
 
@@ -375,7 +390,7 @@ public class CreateInvoiceActivity extends AppCompatActivity {
                 createDatePicker();
             }
         });
-        loadStateDropdown();
+        initializeFormFields();
     }
 
     private boolean validateFields(){
@@ -449,7 +464,7 @@ public class CreateInvoiceActivity extends AppCompatActivity {
                 txtFreightAmt.setError("Invalid Charge Amount.");
                 isInvalid = true;
             }
-            if (isValidAmount(freightGstAutoComplete.getText().toString())) {
+            if (!isValidAmount(freightGstAutoComplete.getText().toString())) {
                 freightGstAutoComplete.setError("Invalid GST rate.");
                 isInvalid = true;
             }
@@ -499,8 +514,10 @@ public class CreateInvoiceActivity extends AppCompatActivity {
     private void save(InvoiceDTO invoiceDTO) {
         // Get a reference to the restaurants collection
         if (invoiceDTO != null) {
+            Log.d("CreateInvoiceActivity", "########## Before Saving document");
             CollectionReference invoices = mFirestore.collection("invoices");
             invoices.add(invoiceDTO);
+            Log.d("CreateInvoiceActivity", "After Saving document ########");
         }
 
     }
@@ -629,6 +646,7 @@ public class CreateInvoiceActivity extends AppCompatActivity {
         }
     }
 
+    // TODO - Make this async later.
     private void loadStateDropdown() {
         if (states == null) {
             states = StateCodes.getAllStates();

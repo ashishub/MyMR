@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.print.PrintAttributes;
 import android.print.PrintDocumentAdapter;
 import android.print.PrintManager;
+import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -39,25 +40,29 @@ public class InvoiceActivity extends AppCompatActivity {
     FloatingActionButton printButton, closeBtn;
     WebView myWebView;
 
+    String NONE_DISPLAY_STYLE = "none";
+
+    String DISPLAY_STYLE_TABLE_ROW = "table-row";
+
     String EMPTY_ITEM_ROW = "<tr>\n" +
             "                    <td colspan=\"14\" style=\"padding-bottom: {LENGTH}px;\"></td>\n" +
             "                </tr>";
 
     static String ITEM_ROW = "<tr>\n" +
-            "    <td>${getSNo}</td>\n" +
-            "    <td>${getItemDesc}</td>\n" +
-            "    <td>${getHsnCode}</td>\n" +
-            "    <td>${getUom}</td>\n" +
-            "    <td>${getQuantity}</td>\n" +
-            "    <td>${getRate}</td>\n" +
-            "    <td>${getTaxableValue}</td>\n" +
-            "    <td>${getCGstPerctage}</td>\n" +
-            "    <td>${getCsgt}</td>\n" +
-            "    <td>${getSGstPerctage}</td>\n" +
-            "    <td>${getSgst}</td>\n" +
-            "    <td>${getIGstPerctage}</td>\n" +
-            "    <td>${getIgst}</td>\n" +
-            "    <td>${getLineTotal}</td>\n" +
+            "    <td class=\"itemMiddleAlign\">${getSNo}</td>\n" +
+            "    <td style=\"min-width: 170px;\">${getItemDesc}</td>\n" +
+            "    <td class=\"itemMiddleAlign\">${getHsnCode}</td>\n" +
+            "    <td class=\"itemMiddleAlign\">${getUom}</td>\n" +
+            "    <td class=\"itemMiddleAlign\">${getQuantity}</td>\n" +
+            "    <td class=\"amountRightAlign\">${getRate}</td>\n" +
+            "    <td class=\"amountRightAlign\">${getTaxableValue}</td>\n" +
+            "    <td class=\"itemMiddleAlign\">${getCGstPerctage}</td>\n" +
+            "    <td class=\"amountRightAlign\">${getCsgt}</td>\n" +
+            "    <td class=\"itemMiddleAlign\">${getSGstPerctage}</td>\n" +
+            "    <td class=\"amountRightAlign\">${getSgst}</td>\n" +
+            "    <td class=\"itemMiddleAlign\">${getIGstPerctage}</td>\n" +
+            "    <td class=\"amountRightAlign\">${getIgst}</td>\n" +
+            "    <td class=\"amountRightAlign\">${getLineTotal}</td>\n" +
             "</tr>";
 
     @Override
@@ -113,12 +118,20 @@ public class InvoiceActivity extends AppCompatActivity {
                     Log.d(TAG, "Name = " + methodName);
                     if (methodName.contains("getItems")) {
                         invoiceTemplate = prepareItems(invoiceDTO.getItems(), invoiceTemplate);
+                        continue;
                     }
                     fieldValue = (String) getMeth.invoke(invoiceDTO);
                     Log.d(TAG, "Name = " + methodName + ", Value = " + fieldValue);
                     invoiceTemplate = invoiceTemplate.replace("${"+methodName+"}", MrUtils.returnString(fieldValue));
                 }
             }
+            //set Additional charges style
+            if (!TextUtils.isEmpty(invoiceDTO.getFreightTaxableAmt())) {
+                invoiceTemplate = invoiceTemplate.replace("${DISPLAY_STYLE}" , DISPLAY_STYLE_TABLE_ROW);
+            } else {
+                invoiceTemplate = invoiceTemplate.replace("${DISPLAY_STYLE}" , NONE_DISPLAY_STYLE);
+            }
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -147,17 +160,17 @@ public class InvoiceActivity extends AppCompatActivity {
                         getMeth = itr.next();
                         methodName = getMeth.getName();
                         Log.d(TAG, "Name = " + methodName);
-                        if (methodName.contains("getItems")) {
+                        if (methodName.contains("InterState")) {
                             continue;
                         }
                         fieldObject = getMeth.invoke(itemDTO);
                         if (fieldObject instanceof Double) {
-                            fieldValue = Double.toString((Double) fieldObject);
+                            itemRow = itemRow.replace("${"+methodName+"}", MrUtils.returnStringForDouble((Double) fieldObject));
                         } else {
                             fieldValue = (String) getMeth.invoke(itemDTO);
+                            itemRow = itemRow.replace("${"+methodName+"}", MrUtils.returnString(fieldValue));
                         }
                         Log.d(TAG, "Name = " + methodName + ", Value = " + fieldValue);
-                        itemRow = itemRow.replace("${"+methodName+"}", MrUtils.returnStringForNumbersAndText(fieldValue));
                     }
                     allItems += itemRow;
                 }
@@ -171,9 +184,9 @@ public class InvoiceActivity extends AppCompatActivity {
 
     private String addEmptyRows(int noOfItems) {
         int pixelPerLine = 25;
-        int maxPixels = 300;
+        int maxPixels = 275;
         int emptyRowPixels = 0;
-        if (noOfItems <= 12) {
+        if (noOfItems <= 11) {
             emptyRowPixels = maxPixels - (noOfItems * pixelPerLine);
         }
         EMPTY_ITEM_ROW = EMPTY_ITEM_ROW.replace("{LENGTH}", String.valueOf(emptyRowPixels));
